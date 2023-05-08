@@ -1,0 +1,1054 @@
+Script started on 2023-05-01 19:27:47+0000
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[?1034h[root@ip-172-31-42-42 cookbooks]# chef-client -zr ""recipe{[K[ter[Kst-cooc[Kkbook::test-recipe}"
+> 
+> chef-client -zr ""recipe[test-cookbook::test-recipe}"
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Precipe[test-cookbook::test-recipe}"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+> 
+> bash: unexpected EOF while looking for matching `"'
+bash: syntax error: unexpected end of file
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# chef-client -zr ""recipe[test-cookbook::test-recipe}"
+
+chef-client -zr "recipe[test-cookbook::test-recipe}"
+
+
+[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C exec ruby -c test-cookbook/recipes/test-recipe.rb 
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P-client -zr ""recipe[test-cookbook::test-recipe}"
+
+chef-client -zr "recipe[test-cookbook::test-recipe}"
+
+
+[K[A[K[A[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Precipe[test-cookbook::test-recipe}"[1P[1@-[C[C[C[C[C[C[C[C[C[C[C[C[C
+[1mTraceback[m (most recent call last):
+	19: from /bin/chef-client:317:in `<main>'
+	18: from /bin/chef-client:317:in `load'
+	17: from /opt/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/chef-bin-15.0.300/bin/chef-client:25:in `<top (required)>'
+	16: from /opt/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/chef-15.0.300/lib/chef/application.rb:66:in `run'
+	15: from /opt/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/chef-15.0.300/lib/chef/application/client.rb:321:in `reconfigure'
+	14: from /opt/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/chef-15.0.300/lib/chef/application.rb:57:in `reconfigure'
+	13: from /opt/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/chef-15.0.300/lib/chef/application.rb:99:in `configure_chef'
+	12: from /opt/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/mixlib-cli-2.0.6/lib/mixlib/cli.rb:230:in `parse_options'
+	11: from /opt/chef-workstation/embedded/lib/ruby/2.6.0/optparse.rb:1678:in `parse!'
+	10: from /opt/chef-workstation/embedded/lib/ruby/2.6.0/optparse.rb:1656:in `permute!'
+	 9: from /opt/chef-workstation/embedded/lib/ruby/2.6.0/optparse.rb:1562:in `order!'
+	 8: from /opt/chef-workstation/embedded/lib/ruby/2.6.0/optparse.rb:1568:in `parse_in_order'
+	 7: from /opt/chef-workstation/embedded/lib/ruby/2.6.0/optparse.rb:1568:in `catch'
+	 6: from /opt/chef-workstation/embedded/lib/ruby/2.6.0/optparse.rb:1614:in `block in parse_in_order'
+	 5: from /opt/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/mixlib-cli-2.0.6/lib/mixlib/cli.rb:290:in `block (3 levels) in opt_parser'
+	 4: from /opt/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/chef-15.0.300/lib/chef/application/client.rb:221:in `block in <class:Client>'
+	 3: from /opt/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/chef-15.0.300/lib/chef/application/client.rb:221:in `map'
+	 2: from /opt/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/chef-15.0.300/lib/chef/application/client.rb:222:in `block (2 levels) in <class:Client>'
+	 1: from /opt/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/chef-15.0.300/lib/chef/application/client.rb:222:in `new'
+/opt/chef-workstation/embedded/lib/ruby/gems/2.6.0/gems/chef-15.0.300/lib/chef/run_list/run_list_item.rb:58:in `initialize': [1mUnable to create Chef::RunList::RunListItem from String:"recipe[test-cookbook::test-recipe}": must be recipe[] or role[] ([1;4mArgumentError[m[1m)[m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# chef-client -zr "recipe[test-cookbook::test-recipe}"[C[1P"]"
+[2023-05-01T19:31:33+00:00] WARN: No config file found or specified on command line. Using command line options instead.
+Starting Chef Infra Client, version 15.0.300[0m
+resolving cookbooks for run list: ["test-cookbook::test-recipe"][0m
+Synchronizing Cookbooks:[0m
+  - test-cookbook (0.1.0)[0m
+Installing Cookbook Gems:[0m
+Compiling Cookbooks...[0m
+Converging 1 resources[0m
+Recipe: test-cookbook::test-recipe[0m
+  * file[/myfile] action create
+    [32m- create new file /myfile[0m
+    [32m- update content in file /myfile from none to 6e161e[0m
+    [37m--- /myfile	2023-05-01 19:31:35.477854295 +0000[0m
+    [37m+++ /.chef-myfile20230501-3793-zgnh3i	2023-05-01 19:31:35.477854295 +0000[0m
+    [37m@@ -1 +1,2 @@[0m
+    [37m+Welcome to Technical Guftgu[0m
+[0m[0m
+Running handlers:[0m
+Running handlers complete
+[0mChef Infra Client finished, 1/1 resources updated in 01 seconds[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# [H[2J[root@ip-172-31-42-42 cookbooks]# ls /
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;36mlib64[0m  [01;34mlocal[0m  [01;34mmedia[0m  [01;34mmnt[0m  myfile  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# cat /m
+media/  mnt/    myfile  
+[root@ip-172-31-42-42 cookbooks]# cat /myfile
+Welcome to Technical Guftgu]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# 
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# cat /myfile[7Pls /chef-client -zr "recipe[test-cookbook::test-recipe]"
+[2023-05-01T19:33:21+00:00] WARN: No config file found or specified on command line. Using command line options instead.
+Starting Chef Infra Client, version 15.0.300[0m
+resolving cookbooks for run list: ["test-cookbook::test-recipe"][0m
+Synchronizing Cookbooks:[0m
+  - test-cookbook (0.1.0)[0m
+Installing Cookbook Gems:[0m
+Compiling Cookbooks...[0m
+Converging 1 resources[0m
+Recipe: test-cookbook::test-recipe[0m
+  * file[/myfile] action create (up to date)
+[0m
+Running handlers:[0m
+Running handlers complete
+[0mChef Infra Client finished, 0/1 resources updated in 01 seconds[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# chef-client -zr "recipe[test-cookbook::test-recipe]"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cat /myfile[K[7Pls /chef-client -zr "recipe[test-cookbook::test-recipe]"}""recipe[test-cookbook::test-recipe}"
+
+chef-client -zr "recipe[test-cookbook::test-recipe}"
+
+
+[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C exec ruby -c test-cookbook/recipes/test-recipe.rb 
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kvi test-cookbook/recipes/test-recipe.rb 
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;42r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[42;1H"test-cookbook/recipes/test-recipe.rb" 10L, 185B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#
+# Cookbook:: test-cookbook[m[2;27H[K[3;1H[34m# Recipe:: test-recipe[m[3;23H[K[4;1H[34m#
+# Copyright:: 2023, The Authors, All Rights Reserved.
+#[m
+file [35m'[m[31m/myfile[m[35m'[m [33mdo[m
+content [35m'[m[31mWelcome to Technical Guftgu[m[35m'[m
+action [31m:create[m
+[33mend[m
+[1m[34m~                                                                                                                                                                                                                  [12;1H~                                                                                                                                                                                                                  [13;1H~                                                                                                                                                                                                                  [14;1H~                                                                                                                                                                                                                  [15;1H~                                                                                                                                                                                                                  [16;1H~                                                                                                                                                                                                                  [17;1H~                                                                                                                                                                                                                  [18;1H~                                                                                                                                                                                                                  [19;1H~                                                                                                                                                                                                                  [20;1H~                                                                                                                                                                                                                  [21;1H~                                                                                                                                                                                                                  [22;1H~                                                                                                                                                                                                                  [23;1H~                                                                                                                                                                                                                  [24;1H~                                                                                                                                                                                                                  [25;1H~                                                                                                                                                                                                                  [26;1H~                                                                                                                                                                                                                  [27;1H~                                                                                                                                                                                                                  [28;1H~                                                                                                                                                                                                                  [29;1H~                                                                                                                                                                                                                  [30;1H~                                                                                                                                                                                                                  [31;1H~                                                                                                                                                                                                                  [32;1H~                                                                                                                                                                                                                  [33;1H~                                                                                                                                                                                                                  [34;1H~                                                                                                                                                                                                                  [35;1H~                                                                                                                                                                                                                  [36;1H~                                                                                                                                                                                                                  [37;1H~                                                                                                                                                                                                                  [38;1H~                                                                                                                                                                                                                  [39;1H~                                                                                                                                                                                                                  [40;1H~                                                                                                                                                                                                                  [41;1H~                                                                                                                                                                                                                  [m[42;194H7,1[11CAll[7;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H[1m[36m#
+# Cookbook:: test-cookbook
+# Recipe:: test-recipe
+#
+# Copyright:: 2023, The Authors, All Rights Reserved.
+#[m
+file [1m[31m'[m[1m[35m/myfile[m[1m[31m'[m [1m[33mdo[m
+content [1m[31m'[m[1m[35mWelcome to Technical Guftgu[m[1m[31m'[m
+action [1m[35m:create[m
+[1m[33mend[m
+[1m[34m~                                                                                                                                                                                                                  [12;1H~                                                                                                                                                                                                                  [13;1H~                                                                                                                                                                                                                  [14;1H~                                                                                                                                                                                                                  [15;1H~                                                                                                                                                                                                                  [16;1H~                                                                                                                                                                                                                  [17;1H~                                                                                                                                                                                                                  [18;1H~                                                                                                                                                                                                                  [19;1H~                                                                                                                                                                                                                  [20;1H~                                                                                                                                                                                                                  [21;1H~                                                                                                                                                                                                                  [22;1H~                                                                                                                                                                                                                  [23;1H~                                                                                                                                                                                                                  [24;1H~                                                                                                                                                                                                                  [25;1H~                                                                                                                                                                                                                  [26;1H~                                                                                                                                                                                                                  [27;1H~                                                                                                                                                                                                                  [28;1H~                                                                                                                                                                                                                  [29;1H~                                                                                                                                                                                                                  [30;1H~                                                                                                                                                                                                                  [31;1H~                                                                                                                                                                                                                  [32;1H~                                                                                                                                                                                                                  [33;1H~                                                                                                                                                                                                                  [34;1H~                                                                                                                                                                                                                  [35;1H~                                                                                                                                                                                                                  [36;1H~                                                                                                                                                                                                                  [37;1H~                                                                                                                                                                                                                  [38;1H~                                                                                                                                                                                                                  [39;1H~                                                                                                                                                                                                                  [40;1H~                                                                                                                                                                                                                  [41;1H~                                                                                                                                                                                                                  [m[42;194H7,1[11CAll"test-cookbook/recipes/test-recipe.rb" 10L, 185B[7;1H[?25h[?25l[42;184Hi[7;1H[42;184H [7;1H[42;1H[1m-- INSERT --[m[42;13H[K[42;194H7,1[11CAll[7;1H[?25h[?25l[42;194H8[8;1H[?25h[?25l[42;196H2[8;2H[?25h[?25l[42;196H3[8;3H[?25h[?25l[42;196H4[8;4H[?25h[?25l[42;196H5[8;5H[?25h[?25l[42;196H6[8;6H[?25h[?25l[42;196H7[8;7H[?25h[?25l[42;196H8[8;8H[?25h[?25l[42;196H9[8;9H[?25h[?25l[42;196H10[8;10H[?25h[?25l[42;197H1[8;11H[?25h[?25l[42;197H2[8;12H[?25h[?25l[42;197H3[8;13H[?25h[?25l[42;197H4[8;14H[?25h[?25l[42;197H5[8;15H[?25h[?25l[42;197H6[8;16H[?25h[?25l[42;197H7[8;17H[?25h[?25l[42;197H8[8;18H[?25h[?25l[42;197H9[8;19H[?25h[?25l[42;196H20[8;20H[?25h[?25l[42;197H1[8;21H[?25h[?25l[42;197H2[8;22H[?25h[?25l[42;197H3[8;23H[?25h[?25l[42;197H4[8;24H[?25h[?25l[42;197H5[8;25H[?25h[?25l[42;197H6[8;26H[?25h[?25l[42;197H7[8;27H[?25h[?25l[42;197H8[8;28H[?25h[?25l[42;197H9[8;29H[?25h[?25l[42;196H30[8;30H[?25h[?25l[42;197H1[8;31H[?25h[?25l[42;197H2[8;32H[?25h[?25l[42;197H3[8;33H[?25h[?25l[42;197H4[8;34H[?25h[?25l[42;197H5[8;35H[?25h[?25l[42;197H6[8;36H[?25h[?25l[42;197H7[8;37H[?25h[?25l[1m[35m [m[1m[31m'[m[42;197H8[8;38H[?25h[?25l[1m[35my[m[1m[31m'[m[42;197H9[8;39H[?25h[?25l[1m[35mo[m[1m[31m'[m[42;196H40[8;40H[?25h[?25l[1m[35mu[m[1m[31m'[m[42;197H1[8;41H[?25h[?25l[1m[35mt[m[1m[31m'[m[42;197H2[8;42H[?25h[?25l[1m[35mu[m[1m[31m'[m[42;197H3[8;43H[?25h[?25l[1m[35mb[m[1m[31m'[m[42;197H4[8;44H[?25h[?25l[1m[35me[m[1m[31m'[m[42;197H5[8;45H[?25h[?25l[1m[35m [m[1m[31m'[m[42;197H6[8;46H[?25h[?25l[1m[35mc[m[1m[31m'[m[42;197H7[8;47H[?25h[?25l[1m[35mh[m[1m[31m'[m[42;197H8[8;48H[?25h[?25l[1m[35ma[m[1m[31m'[m[42;197H9[8;49H[?25h[?25l[1m[35mn[m[1m[31m'[m[42;196H50[8;50H[?25h[?25l[1m[35mn[m[1m[31m'[m[42;197H1[8;51H[?25h[?25l[1m[35me[m[1m[31m'[m[42;197H2[8;52H[?25h[?25l[1m[35ml[m[1m[31m'[m[42;197H3[8;53H[?25h[42;1H[K[8;52H[?25l[42;184H^[[8;52H[42;184H  [8;53H[42;194H8,52[10CAll[8;52H[?25h[?25l[42;184H:[8;52H[42;184H[K[42;1H:[?25hwq[?25l[?2004l[>4;m"test-cookbook/recipes/test-recipe.rb" 10L, 201B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;m]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# vi test-cookbook/recipes/test-recipe.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchef-client -zr "recipe[test-cookbook::test-recipe]"
+[2023-05-01T19:34:58+00:00] WARN: No config file found or specified on command line. Using command line options instead.
+Starting Chef Infra Client, version 15.0.300[0m
+resolving cookbooks for run list: ["test-cookbook::test-recipe"][0m
+Synchronizing Cookbooks:[0m
+  - test-cookbook (0.1.0)[0m
+Installing Cookbook Gems:[0m
+Compiling Cookbooks...[0m
+Converging 1 resources[0m
+Recipe: test-cookbook::test-recipe[0m
+  * file[/myfile] action create
+    [32m- update content in file /myfile from 6e161e to 023ef8[0m
+    [37m--- /myfile	2023-05-01 19:31:35.477854295 +0000[0m
+    [37m+++ /.chef-myfile20230501-3957-kc7w8u	2023-05-01 19:35:00.363324040 +0000[0m
+    [37m@@ -1,2 +1,2 @@[0m
+    [37m-Welcome to Technical Guftgu[0m
+    [37m+Welcome to Technical Guftgu youtube channel[0m
+[0m[0m
+Running handlers:[0m
+Running handlers complete
+[0mChef Infra Client finished, 1/1 resources updated in 01 seconds[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# [H[2J[root@ip-172-31-42-42 cookbooks]# cat /myfile
+Welcome to Technical Guftgu youtube channel]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# 
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# ls
+simplefileruby.txt  [0m[01;34mtest-cookbook[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# cd test-cookbook/
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/test-cookbook[root@ip-172-31-42-42 test-cookbook]# chefg[K generate recipe recipe2
+Recipe: code_generator::recipe[0m
+  * directory[/home/ec2-user/cookbooks/test-cookbook/spec/unit/recipes] action create (up to date)
+  * cookbook_file[/home/ec2-user/cookbooks/test-cookbook/spec/spec_helper.rb] action create_if_missing (up to date)
+  * template[/home/ec2-user/cookbooks/test-cookbook/spec/unit/recipes/recipe2_spec.rb] action create_if_missing
+    [32m- create new file /home/ec2-user/cookbooks/test-cookbook/spec/unit/recipes/recipe2_spec.rb[0m
+    [32m- update content in file /home/ec2-user/cookbooks/test-cookbook/spec/unit/recipes/recipe2_spec.rb from none to 27eb76[0m
+    [37m(diff output suppressed by config)[0m
+[0m  * directory[/home/ec2-user/cookbooks/test-cookbook/test/integration/default] action create (up to date)
+  * template[/home/ec2-user/cookbooks/test-cookbook/test/integration/default/recipe2_test.rb] action create_if_missing
+    [32m- create new file /home/ec2-user/cookbooks/test-cookbook/test/integration/default/recipe2_test.rb[0m
+    [32m- update content in file /home/ec2-user/cookbooks/test-cookbook/test/integration/default/recipe2_test.rb from none to 283e11[0m
+    [37m(diff output suppressed by config)[0m
+[0m  * template[/home/ec2-user/cookbooks/test-cookbook/recipes/recipe2.rb] action create
+    [32m- create new file /home/ec2-user/cookbooks/test-cookbook/recipes/recipe2.rb[0m
+    [32m- update content in file /home/ec2-user/cookbooks/test-cookbook/recipes/recipe2.rb from none to 0eec05[0m
+    [37m(diff output suppressed by config)[0m
+[0m]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/test-cookbook[root@ip-172-31-42-42 test-cookbook]# cd ..
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# vi test-cookbook/recipes/recipe2.rb 
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;42r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[42;1H"test-cookbook/recipes/recipe2.rb" 5L, 104B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#
+# Cookbook:: test-cookbook[m[2;27H[K[3;1H[34m# Recipe:: recipe2[m[3;19H[K[4;1H[34m#
+# Copyright:: 2023, The Authors, All Rights Reserved.[m
+[1m[34m~                                                                                                                                                                                                                  [7;1H~                                                                                                                                                                                                                  [8;1H~                                                                                                                                                                                                                  [9;1H~                                                                                                                                                                                                                  [10;1H~                                                                                                                                                                                                                  [11;1H~                                                                                                                                                                                                                  [12;1H~                                                                                                                                                                                                                  [13;1H~                                                                                                                                                                                                                  [14;1H~                                                                                                                                                                                                                  [15;1H~                                                                                                                                                                                                                  [16;1H~                                                                                                                                                                                                                  [17;1H~                                                                                                                                                                                                                  [18;1H~                                                                                                                                                                                                                  [19;1H~                                                                                                                                                                                                                  [20;1H~                                                                                                                                                                                                                  [21;1H~                                                                                                                                                                                                                  [22;1H~                                                                                                                                                                                                                  [23;1H~                                                                                                                                                                                                                  [24;1H~                                                                                                                                                                                                                  [25;1H~                                                                                                                                                                                                                  [26;1H~                                                                                                                                                                                                                  [27;1H~                                                                                                                                                                                                                  [28;1H~                                                                                                                                                                                                                  [29;1H~                                                                                                                                                                                                                  [30;1H~                                                                                                                                                                                                                  [31;1H~                                                                                                                                                                                                                  [32;1H~                                                                                                                                                                                                                  [33;1H~                                                                                                                                                                                                                  [34;1H~                                                                                                                                                                                                                  [35;1H~                                                                                                                                                                                                                  [36;1H~                                                                                                                                                                                                                  [37;1H~                                                                                                                                                                                                                  [38;1H~                                                                                                                                                                                                                  [39;1H~                                                                                                                                                                                                                  [40;1H~                                                                                                                                                                                                                  [41;1H~                                                                                                                                                                                                                  [m[42;194H1,1[11CAll[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H[1m[36m#
+# Cookbook:: test-cookbook
+# Recipe:: recipe2
+#
+# Copyright:: 2023, The Authors, All Rights Reserved.[m
+[1m[34m~                                                                                                                                                                                                                  [7;1H~                                                                                                                                                                                                                  [8;1H~                                                                                                                                                                                                                  [9;1H~                                                                                                                                                                                                                  [10;1H~                                                                                                                                                                                                                  [11;1H~                                                                                                                                                                                                                  [12;1H~                                                                                                                                                                                                                  [13;1H~                                                                                                                                                                                                                  [14;1H~                                                                                                                                                                                                                  [15;1H~                                                                                                                                                                                                                  [16;1H~                                                                                                                                                                                                                  [17;1H~                                                                                                                                                                                                                  [18;1H~                                                                                                                                                                                                                  [19;1H~                                                                                                                                                                                                                  [20;1H~                                                                                                                                                                                                                  [21;1H~                                                                                                                                                                                                                  [22;1H~                                                                                                                                                                                                                  [23;1H~                                                                                                                                                                                                                  [24;1H~                                                                                                                                                                                                                  [25;1H~                                                                                                                                                                                                                  [26;1H~                                                                                                                                                                                                                  [27;1H~                                                                                                                                                                                                                  [28;1H~                                                                                                                                                                                                                  [29;1H~                                                                                                                                                                                                                  [30;1H~                                                                                                                                                                                                                  [31;1H~                                                                                                                                                                                                                  [32;1H~                                                                                                                                                                                                                  [33;1H~                                                                                                                                                                                                                  [34;1H~                                                                                                                                                                                                                  [35;1H~                                                                                                                                                                                                                  [36;1H~                                                                                                                                                                                                                  [37;1H~                                                                                                                                                                                                                  [38;1H~                                                                                                                                                                                                                  [39;1H~                                                                                                                                                                                                                  [40;1H~                                                                                                                                                                                                                  [41;1H~                                                                                                                                                                                                                  [m[42;194H1,1[11CAll"test-cookbook/recipes/recipe2.rb" 5L, 104B[1;1H[?25h[?25l[42;184H~@k[1;1H[42;184H   [2;1H[42;194H2[2;1H[?25h[?25l[42;184H~@k[2;1H[42;184H   [3;1H[42;194H3[3;1H[?25h[?25l[42;184H~@k[3;1H[42;184H   [4;1H[42;194H4[4;1H[?25h[?25l[42;184Hi[4;1H[42;184H [4;1H[42;1H[1m-- INSERT --[m[42;13H[K[42;194H4,1[11CAll[4;1H[?25h[?25l[42;194H5[5;1H[?25h[?25l[42;196H2[5;2H[?25h[?25l[42;196H3[5;3H[?25h[?25l[42;196H4[5;4H[?25h[?25l[42;196H5[5;5H[?25h[?25l[42;196H6[5;6H[?25h[?25l[42;196H7[5;7H[?25h[?25l[42;196H8[5;8H[?25h[?25l[42;196H9[5;9H[?25h[?25l[42;196H10[5;10H[?25h[?25l[42;197H1[5;11H[?25h[?25l[42;197H2[5;12H[?25h[?25l[42;197H3[5;13H[?25h[?25l[42;197H4[5;14H[?25h[?25l[42;197H5[5;15H[?25h[?25l[42;197H6[5;16H[?25h[?25l[42;197H7[5;17H[?25h[?25l[42;197H8[5;18H[?25h[?25l[42;197H9[5;19H[?25h[?25l[42;196H20[5;20H[?25h[?25l[42;197H1[5;21H[?25h[?25l[42;197H2[5;22H[?25h[?25l[42;197H3[5;23H[?25h[?25l[42;197H4[5;24H[?25h[?25l[42;197H5[5;25H[?25h[?25l[42;197H6[5;26H[?25h[?25l[42;197H7[5;27H[?25h[?25l[42;197H8[5;28H[?25h[?25l[42;197H9[5;29H[?25h[?25l[42;196H30[5;30H[?25h[?25l[42;197H1[5;31H[?25h[?25l[42;197H2[5;32H[?25h[?25l[42;197H3[5;33H[?25h[?25l[42;197H4[5;34H[?25h[?25l[42;197H5[5;35H[?25h[?25l[42;197H6[5;36H[?25h[?25l[42;197H7[5;37H[?25h[?25l[42;197H8[5;38H[?25h[?25l[42;197H9[5;39H[?25h[?25l[42;196H40[5;40H[?25h[?25l[42;197H1[5;41H[?25h[?25l[42;197H2[5;42H[?25h[?25l[42;197H3[5;43H[?25h[?25l[42;197H4[5;44H[?25h[?25l[42;197H5[5;45H[?25h[?25l[42;197H6[5;46H[?25h[?25l[42;197H7[5;47H[?25h[?25l[42;197H8[5;48H[?25h[?25l[42;197H9[5;49H[?25h[?25l[42;196H50[5;50H[?25h[?25l[42;197H1[5;51H[?25h[?25l[42;197H2[5;52H[?25h[?25l[42;197H3[5;53H[?25h[?25l[42;197H4[5;54H[?25h[?25l
+[1m[36m# [m[6;3H[K[42;194H6,3 [6;3H[?25h[?25l[6;2H[K[7;1H[1m[36m# [m[7;3H[K[42;194H7[7;3H[?25h[?25l[7;2H[K[42;196H2[7;2H[?25h[?25l[7;1H[K[42;196H1[7;1H[?25h[?25l[8;1H[K[42;194H8[8;1H[?25h[?25lpackage [1m[31m'[m[1m[35mtree[m[1m[31m'[m [1m[33mdo[m
+action [1m[35m:install[m[9;16H[K[10;1H[1m[33mend[m[10;4H[K[11;1H[K[12;1Hfile [1m[31m'[m[1m[35m/myfile2[m[1m[31m'[m [1m[33mdo[m[12;19H[K[13;1Hconten[13;7H[K[13;7H[?25h[?25lt [1m[31m'[m[1m[35mThis is My Second Project code[m[1m[31m'[m
+action [1m[35m:create[m[14;15H[K[15;1Howner [1m[31m'[m[1m[35mroot[m[1m[31m'[m[15;13H[K[16;1Hgroup[16;6H[K[16;6H[?25h[?25l [1m[31m'[m[1m[35mroot[m[1m[31m'[m
+[1m[33mend[m[17;4H[K[42;194H17,4[17;4H[?25h[?25l[18;1H[K[42;195H8,1[18;1H[?25h[?25l[19;1H[K[42;195H9[19;1H[?25h[42;1H[K[19;1H[?25l[42;184H^[[19;1H[42;184H  [19;1H[42;194H19,0-1[8CAll[19;1H[?25h[?25l[42;184H:[19;1H[42;184H[K[42;1H:[?25hwq[?25l[?2004l[>4;m"test-cookbook/recipes/recipe2.rb" 19L, 253B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;m]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# chef[K[K[K[Kvi test-cookbook/recipes/recipe2.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Khef generate recipe recipe2[11Pd test-cookbook/ls[Kcat /myfilehef-client -zr "recipe[test-cookbook::test-recipe]"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pvi test-cookbook/recipes/test-recipe.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchef-client -zr "recipe[test-cookbook::test-recipe]"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cat /myfile[K[7Pls /chef-client -zr "recipe[test-cookbook::test-recipe]"}""recipe[test-cookbook::test-recipe}"
+
+chef-client -zr "recipe[test-cookbook::test-recipe}"
+
+
+[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C exec ruby -c test-cookbook/recipes/test-recipe.rb 
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P-client -zr ""recipe[test-cookbook::test-recipe}"
+
+chef-client -zr "recipe[test-cookbook::test-recipe}"
+
+
+[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Precipe[test-cookbook::test-recipe}"
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C]"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls /[Kcat /myfilehef-client -zr "recipe[test-cookbook::test-recipe]"[1P]"[1P]"[1P]"[1P]"[1P]"[1P]"[1P]"[1P]"[1P]"[1P]"[1P]"r]"e]"c]"i]"p]"e]"2]"
+[2023-05-01T19:40:36+00:00] WARN: No config file found or specified on command line. Using command line options instead.
+Starting Chef Infra Client, version 15.0.300[0m
+resolving cookbooks for run list: ["test-cookbook::recipe2"][0m
+Synchronizing Cookbooks:[0m
+  - test-cookbook (0.1.0)[0m
+Installing Cookbook Gems:[0m
+Compiling Cookbooks...[0m
+Converging 2 resources[0m
+Recipe: test-cookbook::recipe2[0m
+  * yum_package[tree] action install (up to date)
+  * file[/myfile2] action create
+    [32m- create new file /myfile2[0m
+    [32m- update content in file /myfile2 from none to b777b8[0m
+    [37m--- /myfile2	2023-05-01 19:40:39.695174381 +0000[0m
+    [37m+++ /.chef-myfile220230501-4134-x430ui	2023-05-01 19:40:39.695174381 +0000[0m
+    [37m@@ -1 +1,2 @@[0m
+    [37m+This is My Second Project code[0m
+    [32m- change owner from '' to 'root'[0m
+    [32m- change group from '' to 'root'[0m
+[0m[0m
+Running handlers:[0m
+Running handlers complete
+[0mChef Infra Client finished, 1/2 resources updated in 03 seconds[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# [H[2J[root@ip-172-31-42-42 cookbooks]# yum remove tree -y
+Loaded plugins: extras_suggestions, langpacks, priorities, update-motd
+Resolving Dependencies
+--> Running transaction check
+---> Package tree.x86_64 0:1.6.0-10.amzn2.0.1 will be erased
+--> Finished Dependency Resolution
+amzn2-core/2/x86_64                                                                                                                                                                         | 3.7 kB  00:00:00     
+
+Dependencies Resolved
+
+===================================================================================================================================================================================================================
+ Package                                      Arch                                           Version                                                     Repository                                           Size
+===================================================================================================================================================================================================================
+Removing:
+ tree                                         x86_64                                         1.6.0-10.amzn2.0.1                                          @amzn2-core                                          83 k
+
+Transaction Summary
+===================================================================================================================================================================================================================
+Remove  1 Package
+
+Installed size: 83 k
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Erasing    : tree-1.6.0-10.amzn2.0.1.x86_64                                                                                                                                                                  1/1 
+  Verifying  : tree-1.6.0-10.amzn2.0.1.x86_64                                                                                                                                                                  1/1 
+
+Removed:
+  tree.x86_64 0:1.6.0-10.amzn2.0.1                                                                                                                                                                                 
+
+Complete!
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# yum remove tree -ychef-client -zr "recipe[test-cookbook::recipe2]"
+[2023-05-01T19:41:48+00:00] WARN: No config file found or specified on command line. Using command line options instead.
+Starting Chef Infra Client, version 15.0.300[0m
+resolving cookbooks for run list: ["test-cookbook::recipe2"][0m
+Synchronizing Cookbooks:[0m
+  - test-cookbook (0.1.0)[0m
+Installing Cookbook Gems:[0m
+Compiling Cookbooks...[0m
+Converging 2 resources[0m
+Recipe: test-cookbook::recipe2[0m
+  * yum_package[tree] action install
+    [32m- install version 0:1.6.0-10.amzn2.0.1.x86_64 of package tree[0m
+[0m  * file[/myfile2] action create (up to date)
+[0m
+Running handlers:[0m
+Running handlers complete
+[0mChef Infra Client finished, 1/2 resources updated in 05 seconds[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# chef-client -zr "recipe[test-cookbook::recipe2]"
+[2023-05-01T19:42:34+00:00] WARN: No config file found or specified on command line. Using command line options instead.
+Starting Chef Infra Client, version 15.0.300[0m
+resolving cookbooks for run list: ["test-cookbook::recipe2"][0m
+Synchronizing Cookbooks:[0m
+  - test-cookbook (0.1.0)[0m
+Installing Cookbook Gems:[0m
+Compiling Cookbooks...[0m
+Converging 2 resources[0m
+Recipe: test-cookbook::recipe2[0m
+  * yum_package[tree] action install (up to date)
+  * file[/myfile2] action create (up to date)
+[0m
+Running handlers:[0m
+Running handlers complete
+[0mChef Infra Client finished, 0/2 resources updated in 03 seconds[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# cal /myfile2
+cal: failed to parse timestamp or unknown month name: /myfile2
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# cal /myfile2[C[1P /myfile2t /myfile2
+This is My Second Project code]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# cat /myfile2
+This is My Second Project code]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# 
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# 
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# [H[2J[root@ip-172-31-42-42 cookbooks]# chef generat cooc[Kkbook apache-cookbook[1@e
+Hyphens are discouraged in cookbook names as they may cause problems with custom resources. See https://docs.chef.io/ctl_chef.html#chef-generate-cookbook for more information.
+Generating cookbook apache-cookbook
+- Ensuring correct cookbook content[0m
+
+Your cookbook is ready. Type `cd apache-cookbook` to enter it.
+
+There are several commands you can run to get started locally developing and testing your cookbook.
+Type `delivery local --help` to see a full list of local testing commands.
+
+Why not start by writing an InSpec test? Tests for the default recipe are stored at:
+
+test/integration/default/default_test.rb
+
+If you'd prefer to dive right in, the default recipe can be found at:
+
+recipes/default.rb
+
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# ls
+[0m[01;34mapache-cookbook[0m  simplefileruby.txt  [01;34mtest-cookbook[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# cd apache-cookbook/
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/apache-cookbook[root@ip-172-31-42-42 apache-cookbook]# chef generate recipe apache-rece[Kipe
+Recipe: code_generator::recipe[0m
+  * directory[/home/ec2-user/cookbooks/apache-cookbook/spec/unit/recipes] action create (up to date)
+  * cookbook_file[/home/ec2-user/cookbooks/apache-cookbook/spec/spec_helper.rb] action create_if_missing (up to date)
+  * template[/home/ec2-user/cookbooks/apache-cookbook/spec/unit/recipes/apache-recipe_spec.rb] action create_if_missing
+    [32m- create new file /home/ec2-user/cookbooks/apache-cookbook/spec/unit/recipes/apache-recipe_spec.rb[0m
+    [32m- update content in file /home/ec2-user/cookbooks/apache-cookbook/spec/unit/recipes/apache-recipe_spec.rb from none to 55c7d4[0m
+    [37m(diff output suppressed by config)[0m
+[0m  * directory[/home/ec2-user/cookbooks/apache-cookbook/test/integration/default] action create (up to date)
+  * template[/home/ec2-user/cookbooks/apache-cookbook/test/integration/default/apache-recipe_test.rb] action create_if_missing
+    [32m- create new file /home/ec2-user/cookbooks/apache-cookbook/test/integration/default/apache-recipe_test.rb[0m
+    [32m- update content in file /home/ec2-user/cookbooks/apache-cookbook/test/integration/default/apache-recipe_test.rb from none to ab94a5[0m
+    [37m(diff output suppressed by config)[0m
+[0m  * template[/home/ec2-user/cookbooks/apache-cookbook/recipes/apache-recipe.rb] action create
+    [32m- create new file /home/ec2-user/cookbooks/apache-cookbook/recipes/apache-recipe.rb[0m
+    [32m- update content in file /home/ec2-user/cookbooks/apache-cookbook/recipes/apache-recipe.rb from none to 92eeea[0m
+    [37m(diff output suppressed by config)[0m
+[0m]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/apache-cookbook[root@ip-172-31-42-42 apache-cookbook]# tree
+.
+├── CHANGELOG.md
+├── chefignore
+├── kitchen.yml
+├── LICENSE
+├── metadata.rb
+├── Policyfile.rb
+├── README.md
+├── recipes
+│   ├── apache-recipe.rb
+│   └── default.rb
+├── spec
+│   ├── spec_helper.rb
+│   └── unit
+│       └── recipes
+│           ├── apache-recipe_spec.rb
+│           └── default_spec.rb
+└── test
+    └── integration
+        └── default
+            ├── apache-recipe_test.rb
+            └── default_test.rb
+
+7 directories, 14 files
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/apache-cookbook[root@ip-172-31-42-42 apache-cookbook]# [H[2J[root@ip-172-31-42-42 apache-cookbook]# cd ..
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# vi apache-cookbook/recipes/apache-recipe.rb 
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;42r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[42;1H"apache-cookbook/recipes/apache-recipe.rb" 5L, 112B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#
+# Cookbook:: apache-cookbook[m[2;29H[K[3;1H[34m# Recipe:: apache-recipe[m[3;25H[K[4;1H[34m#
+# Copyright:: 2023, The Authors, All Rights Reserved.[m
+[1m[34m~                                                                                                                                                                                                                  [7;1H~                                                                                                                                                                                                                  [8;1H~                                                                                                                                                                                                                  [9;1H~                                                                                                                                                                                                                  [10;1H~                                                                                                                                                                                                                  [11;1H~                                                                                                                                                                                                                  [12;1H~                                                                                                                                                                                                                  [13;1H~                                                                                                                                                                                                                  [14;1H~                                                                                                                                                                                                                  [15;1H~                                                                                                                                                                                                                  [16;1H~                                                                                                                                                                                                                  [17;1H~                                                                                                                                                                                                                  [18;1H~                                                                                                                                                                                                                  [19;1H~                                                                                                                                                                                                                  [20;1H~                                                                                                                                                                                                                  [21;1H~                                                                                                                                                                                                                  [22;1H~                                                                                                                                                                                                                  [23;1H~                                                                                                                                                                                                                  [24;1H~                                                                                                                                                                                                                  [25;1H~                                                                                                                                                                                                                  [26;1H~                                                                                                                                                                                                                  [27;1H~                                                                                                                                                                                                                  [28;1H~                                                                                                                                                                                                                  [29;1H~                                                                                                                                                                                                                  [30;1H~                                                                                                                                                                                                                  [31;1H~                                                                                                                                                                                                                  [32;1H~                                                                                                                                                                                                                  [33;1H~                                                                                                                                                                                                                  [34;1H~                                                                                                                                                                                                                  [35;1H~                                                                                                                                                                                                                  [36;1H~                                                                                                                                                                                                                  [37;1H~                                                                                                                                                                                                                  [38;1H~                                                                                                                                                                                                                  [39;1H~                                                                                                                                                                                                                  [40;1H~                                                                                                                                                                                                                  [41;1H~                                                                                                                                                                                                                  [m[42;194H1,1[11CAll[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H[1m[36m#
+# Cookbook:: apache-cookbook
+# Recipe:: apache-recipe
+#
+# Copyright:: 2023, The Authors, All Rights Reserved.[m
+[1m[34m~                                                                                                                                                                                                                  [7;1H~                                                                                                                                                                                                                  [8;1H~                                                                                                                                                                                                                  [9;1H~                                                                                                                                                                                                                  [10;1H~                                                                                                                                                                                                                  [11;1H~                                                                                                                                                                                                                  [12;1H~                                                                                                                                                                                                                  [13;1H~                                                                                                                                                                                                                  [14;1H~                                                                                                                                                                                                                  [15;1H~                                                                                                                                                                                                                  [16;1H~                                                                                                                                                                                                                  [17;1H~                                                                                                                                                                                                                  [18;1H~                                                                                                                                                                                                                  [19;1H~                                                                                                                                                                                                                  [20;1H~                                                                                                                                                                                                                  [21;1H~                                                                                                                                                                                                                  [22;1H~                                                                                                                                                                                                                  [23;1H~                                                                                                                                                                                                                  [24;1H~                                                                                                                                                                                                                  [25;1H~                                                                                                                                                                                                                  [26;1H~                                                                                                                                                                                                                  [27;1H~                                                                                                                                                                                                                  [28;1H~                                                                                                                                                                                                                  [29;1H~                                                                                                                                                                                                                  [30;1H~                                                                                                                                                                                                                  [31;1H~                                                                                                                                                                                                                  [32;1H~                                                                                                                                                                                                                  [33;1H~                                                                                                                                                                                                                  [34;1H~                                                                                                                                                                                                                  [35;1H~                                                                                                                                                                                                                  [36;1H~                                                                                                                                                                                                                  [37;1H~                                                                                                                                                                                                                  [38;1H~                                                                                                                                                                                                                  [39;1H~                                                                                                                                                                                                                  [40;1H~                                                                                                                                                                                                                  [41;1H~                                                                                                                                                                                                                  [m[42;194H1,1[11CAll"apache-cookbook/recipes/apache-recipe.rb" 5L, 112B[1;1H[?25h[?25l[42;184Hi[1;1H[42;184H [1;1H[42;1H[1m-- INSERT --[m[42;13H[K[42;194H1,1[11CAll[1;1H[?25h[?25l[42;194H2[2;1H[?25h[?25l[42;194H3[3;1H[?25h[?25l[42;194H4[4;1H[?25h[?25l[42;194H5[5;1H[?25h[?25l[42;196H2[5;2H[?25h[?25l[42;196H3[5;3H[?25h[?25l[42;196H4[5;4H[?25h[?25l[42;196H5[5;5H[?25h[?25l[42;196H6[5;6H[?25h[?25l[42;196H7[5;7H[?25h[?25l[42;196H8[5;8H[?25h[?25l[42;196H9[5;9H[?25h[?25l[42;196H10[5;10H[?25h[?25l[42;197H1[5;11H[?25h[?25l[42;197H2[5;12H[?25h[?25l[42;197H3[5;13H[?25h[?25l[42;197H4[5;14H[?25h[?25l[42;197H5[5;15H[?25h[?25l[42;197H6[5;16H[?25h[?25l[42;197H7[5;17H[?25h[?25l[42;197H8[5;18H[?25h[?25l[42;197H9[5;19H[?25h[?25l[42;196H20[5;20H[?25h[?25l[42;197H1[5;21H[?25h[?25l[42;197H2[5;22H[?25h[?25l[42;197H3[5;23H[?25h[?25l[42;197H4[5;24H[?25h[?25l[42;197H5[5;25H[?25h[?25l[42;197H6[5;26H[?25h[?25l[42;197H7[5;27H[?25h[?25l[42;197H8[5;28H[?25h[?25l[42;197H9[5;29H[?25h[?25l[42;196H30[5;30H[?25h[?25l[42;197H1[5;31H[?25h[?25l[42;197H2[5;32H[?25h[?25l[42;197H3[5;33H[?25h[?25l[42;197H4[5;34H[?25h[?25l[42;197H5[5;35H[?25h[?25l[42;197H6[5;36H[?25h[?25l[42;197H7[5;37H[?25h[?25l[42;197H8[5;38H[?25h[?25l[42;197H9[5;39H[?25h[?25l[42;196H40[5;40H[?25h[?25l[42;197H1[5;41H[?25h[?25l[42;197H2[5;42H[?25h[?25l[42;197H3[5;43H[?25h[?25l[42;197H4[5;44H[?25h[?25l[42;197H5[5;45H[?25h[?25l[42;197H6[5;46H[?25h[?25l[42;197H7[5;47H[?25h[?25l[42;197H8[5;48H[?25h[?25l[42;197H9[5;49H[?25h[?25l[42;196H50[5;50H[?25h[?25l[42;197H1[5;51H[?25h[?25l[42;197H2[5;52H[?25h[?25l[42;197H3[5;53H[?25h[?25l[42;197H4[5;54H[?25h[?25l
+[1m[36m# [m[6;3H[K[42;194H6,3 [6;3H[?25h[?25l[6;2H[K[7;1H[1m[36m# [m[7;3H[K[42;194H7[7;3H[?25h[?25l[7;2H[K[42;196H2[7;2H[?25h[?25l[7;1H[K[42;196H1[7;1H[?25h[?25l[8;1H[K[42;194H8[8;1H[?25h[?25l[9;1H[K[42;194H9[9;1H[?25h[?25l[42;194H8[8;1H[?25h[?25l[42;194H9[9;1H[?25h[?25lpackage [1m[31m'[m[1m[35mhttpd[m[1m[31m'[m [1m[33mdo[m
+action [1m[35m:install[m[10;16H[K[11;1H[1m[33mend[m[11;4H[K[12;1H[K[13;1Hfile [1m[31m'[m[1m[35m/var/www/ht[m[13;18H[K[13;18H[?25h[?25l[1m[35mml/index.html[m[1m[31m'[m [1m[33mdo[m
+content [1m[31m'[m[1m[35mWelcome to Technical Guftgu[m[1m[31m'[m[14;38H[K[15;1Haction [15;8H[K[15;8H[?25h[?25l[1m[35m:create[m
+[1m[33mend[m[16;4H[K[17;1H[K[18;1H[K[19;1Hservice [1m[31m'[m[1m[35mhttpd[m[1m[31m'[m [1m[33mdo[m[19;19H[K[20;1Haction [[1m[35m:enable[m, [1m[35m:start[m][20;25H[K[21;1H[1m[33mend[m[21;4H[K[21;4H[?25h[?25l[42;194H21,4[21;4H[?25h[42;1H[K[21;3H[?25l[42;184H^[[21;3H[42;184H  [21;4H[42;194H21,3[10CAll[21;3H[?25h[?25l[42;184H:[21;3H[42;184H[K[42;1H:[?25hwq[?25l[?2004l[>4;m"apache-cookbook/recipes/apache-recipe.rb" 21L, 298B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;m]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# vi apache-cookbook/recipes/apache-recipe.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[1Ptreechef generate recipe apache-recipe[15Pd apache-cookbook/ls[Kchef generate cookbook apache-cookbook[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cat /myfile2[Kl[C[C[C[C[C[C[C[C[Chef-client -zr "recipe[test-cookbook::recipe2]"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pyum remove tree -ychef-client -zr "recipe[test-cookbook::recipe2]"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pvi test-cookbook/recipes/recipe2.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Khef generate recipe recipe2[11Pd test-cookbook/ls[Kcat /myfilehef-client -zr "recipe[test-cookbook::test-recipe]"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pvi test-cookbook/recipes/test-recipe.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchef-client -zr "recipe[test-cookbook::test-recipe]"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cat /myfile[K[7Pls /chef-client -zr "recipe[test-cookbook::test-recipe]"}""recipe[test-cookbook::test-recipe}"
+
+chef-client -zr "recipe[test-cookbook::test-recipe}"
+
+
+[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C exec ruby -c test-cookbook/recipes/test-recipe.rb 
+[K
+[K
+[K
+[K
+[K[A[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kapache-cookbook/recipes/apache-recipe.rb 
+Syntax OK
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# chef [K-client -zr "recipe[apache-cookbook::apacj[Khe-recipe]"
+[2023-05-01T19:48:37+00:00] WARN: No config file found or specified on command line. Using command line options instead.
+Starting Chef Infra Client, version 15.0.300[0m
+resolving cookbooks for run list: ["apache-cookbook::apache-recipe"][0m
+Synchronizing Cookbooks:[0m
+  - apache-cookbook (0.1.0)[0m
+Installing Cookbook Gems:[0m
+Compiling Cookbooks...[0m
+Converging 3 resources[0m
+Recipe: apache-cookbook::apache-recipe[0m
+  * yum_package[httpd] action install
+    [32m- install version 0:2.4.56-1.amzn2.x86_64 of package httpd[0m
+[0m  * file[/var/www/html/index.html] action create
+    [32m- create new file /var/www/html/index.html[0m
+    [32m- update content in file /var/www/html/index.html from none to 6e161e[0m
+    [37m--- /var/www/html/index.html	2023-05-01 19:48:44.305154457 +0000[0m
+    [37m+++ /var/www/html/.chef-index20230501-4517-1i6j61r.html	2023-05-01 19:48:44.305154457 +0000[0m
+    [37m@@ -1 +1,2 @@[0m
+    [37m+Welcome to Technical Guftgu[0m
+[0m  * service[httpd] action enable
+    [32m- enable service service[httpd][0m
+[0m  * service[httpd] action start
+    [32m- start service service[httpd][0m
+[0m[0m
+Running handlers:[0m
+Running handlers complete
+[0mChef Infra Client finished, 4/4 resources updated in 07 seconds[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# chef-client -zr "recipe[apache-cookbook::apache-recipe]"
+[2023-05-01T19:53:14+00:00] WARN: No config file found or specified on command line. Using command line options instead.
+Starting Chef Infra Client, version 15.0.300[0m
+resolving cookbooks for run list: ["apache-cookbook::apache-recipe"][0m
+Synchronizing Cookbooks:[0m
+  - apache-cookbook (0.1.0)[0m
+Installing Cookbook Gems:[0m
+Compiling Cookbooks...[0m
+Converging 3 resources[0m
+Recipe: apache-cookbook::apache-recipe[0m
+  * yum_package[httpd] action install (up to date)
+  * file[/var/www/html/index.html] action create (up to date)
+  * service[httpd] action enable (up to date)
+  * service[httpd] action start (up to date)
+[0m
+Running handlers:[0m
+Running handlers complete
+[0mChef Infra Client finished, 0/4 resources updated in 03 seconds[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# [H[2J[root@ip-172-31-42-42 cookbooks]# chef-client -zr "recipe[apache-cookbook::apache-recipe]"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C exec ruby -c apache-cookbook/recipes/apache-recipe.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pvi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;42r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[42;1H"apache-cookbook/recipes/apache-recipe.rb" 21L, 298B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#
+# Cookbook:: apache-cookbook[m[2;29H[K[3;1H[34m# Recipe:: apache-recipe[m[3;25H[K[4;1H[34m#
+# Copyright:: 2023, The Authors, All Rights Reserved.
+#[m
+
+
+package [35m'[m[31mhttpd[m[35m'[m [33mdo[m
+action [31m:install[m
+[33mend[m
+
+file [35m'[m[31m/var/www/html/index.html[m[35m'[m [33mdo[m
+content [35m'[m[31mWelcome to Technical Guftgu[m[35m'[m
+action [31m:create[m
+[33mend[m
+
+
+service [35m'[m[31mhttpd[m[35m'[m [33mdo[m
+action [[31m:enable[m, [31m:start[m]
+[33mend[m
+[1m[34m~                                                                                                                                                                                                                  [23;1H~                                                                                                                                                                                                                  [24;1H~                                                                                                                                                                                                                  [25;1H~                                                                                                                                                                                                                  [26;1H~                                                                                                                                                                                                                  [27;1H~                                                                                                                                                                                                                  [28;1H~                                                                                                                                                                                                                  [29;1H~                                                                                                                                                                                                                  [30;1H~                                                                                                                                                                                                                  [31;1H~                                                                                                                                                                                                                  [32;1H~                                                                                                                                                                                                                  [33;1H~                                                                                                                                                                                                                  [34;1H~                                                                                                                                                                                                                  [35;1H~                                                                                                                                                                                                                  [36;1H~                                                                                                                                                                                                                  [37;1H~                                                                                                                                                                                                                  [38;1H~                                                                                                                                                                                                                  [39;1H~                                                                                                                                                                                                                  [40;1H~                                                                                                                                                                                                                  [41;1H~                                                                                                                                                                                                                  [m[42;194H21,3[10CAll[21;3H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H[1m[36m#
+# Cookbook:: apache-cookbook
+# Recipe:: apache-recipe
+#
+# Copyright:: 2023, The Authors, All Rights Reserved.
+#[m
+
+
+package [1m[31m'[m[1m[35mhttpd[m[1m[31m'[m [1m[33mdo[m
+action [1m[35m:install[m
+[1m[33mend[m
+
+file [1m[31m'[m[1m[35m/var/www/html/index.html[m[1m[31m'[m [1m[33mdo[m
+content [1m[31m'[m[1m[35mWelcome to Technical Guftgu[m[1m[31m'[m
+action [1m[35m:create[m
+[1m[33mend[m
+
+
+service [1m[31m'[m[1m[35mhttpd[m[1m[31m'[m [1m[33mdo[m
+action [[1m[35m:enable[m, [1m[35m:start[m]
+[1m[33mend[m
+[1m[34m~                                                                                                                                                                                                                  [23;1H~                                                                                                                                                                                                                  [24;1H~                                                                                                                                                                                                                  [25;1H~                                                                                                                                                                                                                  [26;1H~                                                                                                                                                                                                                  [27;1H~                                                                                                                                                                                                                  [28;1H~                                                                                                                                                                                                                  [29;1H~                                                                                                                                                                                                                  [30;1H~                                                                                                                                                                                                                  [31;1H~                                                                                                                                                                                                                  [32;1H~                                                                                                                                                                                                                  [33;1H~                                                                                                                                                                                                                  [34;1H~                                                                                                                                                                                                                  [35;1H~                                                                                                                                                                                                                  [36;1H~                                                                                                                                                                                                                  [37;1H~                                                                                                                                                                                                                  [38;1H~                                                                                                                                                                                                                  [39;1H~                                                                                                                                                                                                                  [40;1H~                                                                                                                                                                                                                  [41;1H~                                                                                                                                                                                                                  [m[42;194H21,3[10CAll"apache-cookbook/recipes/apache-recipe.rb" 21L, 298B[21;3H[?25h[?25l[42;184Hi[21;3H[42;184H [21;3H[42;1H[1m-- INSERT --[m[42;13H[K[42;194H21,3[10CAll[21;3H[?25h[?25l[42;195H0[20;3H[?25h[?25l[42;194H19[19;3H[?25h[?25l[42;195H8,1[18;1H[?25h[?25l[42;195H7[17;1H[?25h[?25l[42;195H6,3[16;3H[?25h[?25l[42;197H4[16;4H[?25h[?25l[42;195H5[15;4H[?25h[?25l[42;195H4[14;4H[?25h[?25l[42;197H5[14;5H[?25h[?25l[42;197H6[14;6H[?25h[?25l[42;197H7[14;7H[?25h[?25l[42;197H8[14;8H[?25h[?25l[42;197H9[14;9H[?25h[?25l[42;197H10[14;10H[?25h[?25l[42;198H1[14;11H[?25h[?25l[42;198H2[14;12H[?25h[?25l[42;198H3[14;13H[?25h[?25l[42;198H4[14;14H[?25h[?25l[42;198H5[14;15H[?25h[?25l[42;198H6[14;16H[?25h[?25l[42;198H7[14;17H[?25h[?25l[42;198H8[14;18H[?25h[?25l[42;198H9[14;19H[?25h[?25l[42;197H20[14;20H[?25h[?25l[42;198H1[14;21H[?25h[?25l[42;198H2[14;22H[?25h[?25l[42;198H3[14;23H[?25h[?25l[42;198H4[14;24H[?25h[?25l[42;198H5[14;25H[?25h[?25l[42;198H6[14;26H[?25h[?25l[42;198H7[14;27H[?25h[?25l[42;198H8[14;28H[?25h[?25l[42;198H9[14;29H[?25h[?25l[42;197H30[14;30H[?25h[?25l[42;198H1[14;31H[?25h[?25l[42;198H2[14;32H[?25h[?25l[42;198H3[14;33H[?25h[?25l[42;198H4[14;34H[?25h[?25l[42;198H5[14;35H[?25h[?25l[42;198H6[14;36H[?25h[?25l[42;198H7[14;37H[?25h[?25l[1m[31m'[m[14;37H[K[42;198H6[14;36H[?25h[?25l[1m[31m'[m[14;36H[K[42;198H5[14;35H[?25h[?25l[1m[31m'[m[14;35H[K[42;198H4[14;34H[?25h[?25l[1m[31m'[m[14;34H[K[42;198H3[14;33H[?25h[?25l[1m[31m'[m[14;33H[K[42;198H2[14;32H[?25h[?25l[1m[31m'[m[14;32H[K[42;198H1[14;31H[?25h[?25l[1m[31m'[m[14;31H[K[42;198H0[14;30H[?25h[?25l[1m[31m'[m[14;30H[K[42;197H29[14;29H[?25h[?25l[1m[31m'[m[14;29H[K[42;198H8[14;28H[?25h[?25l[1m[31m'[m[14;28H[K[42;198H7[14;27H[?25h[?25l[1m[31m'[m[14;27H[K[42;198H6[14;26H[?25h[?25l[1m[31m'[m[14;26H[K[42;198H5[14;25H[?25h[?25l[1m[31m'[m[14;25H[K[42;198H4[14;24H[?25h[?25l[1m[31m'[m[14;24H[K[42;198H3[14;23H[?25h[?25l[1m[31m'[m[14;23H[K[42;198H2[14;22H[?25h[?25l[1m[31m'[m[14;22H[K[42;198H1[14;21H[?25h[?25l[1m[31m'[m[14;21H[K[42;198H0[14;20H[?25h[?25l[1m[31m'[m[14;20H[K[42;197H19[14;19H[?25h[?25l[1m[31m'[m[14;19H[K[42;198H8[14;18H[?25h[?25l[1m[31m'[m[14;18H[K[42;198H7[14;17H[?25h[?25l[1m[31m'[m[14;17H[K[42;198H6[14;16H[?25h[?25l[1m[31m'[m[14;16H[K[42;198H5[14;15H[?25h[?25l[1m[31m'[m[14;15H[K[42;198H4[14;14H[?25h[?25l[1m[31m'[m[14;14H[K[42;198H3[14;13H[?25h[?25l[1m[31m'[m[14;13H[K[42;198H2[14;12H[?25h[?25l[1m[31m'[m[14;12H[K[42;198H1[14;11H[?25h[?25l[1m[31m'[m[14;11H[K[42;198H0[14;10H[?25h[?25l[1m[35mM[m[1m[31m'[m[42;198H1[14;11H[?25h[?25l[1m[35mo[m[1m[31m'[m[42;198H2[14;12H[?25h[?25l[1m[35mh[m[1m[31m'[m[42;198H3[14;13H[?25h[?25l[1m[35ma[m[1m[31m'[m[42;198H4[14;14H[?25h[?25l[1m[35mn[m[1m[31m'[m[42;198H5[14;15H[?25h[?25l[1m[35m [m[1m[31m'[m[42;198H6[14;16H[?25h[?25l[1m[35mk[m[1m[31m'[m[42;198H7[14;17H[?25h[?25l[1m[35ma[m[1m[31m'[m[42;198H8[14;18H[?25h[?25l[1m[35m [m[1m[31m'[m[42;198H9[14;19H[?25h[?25l[1m[35mn[m[1m[31m'[m[42;197H20[14;20H[?25h[?25l[1m[35me[m[1m[31m'[m[42;198H1[14;21H[?25h[?25l[1m[35mw[m[1m[31m'[m[42;198H2[14;22H[?25h[?25l[1m[35m [m[1m[31m'[m[42;198H3[14;23H[?25h[?25l[1m[35mn[m[1m[31m'[m[42;198H4[14;24H[?25h[?25l[1m[35ma[m[1m[31m'[m[42;198H5[14;25H[?25h[?25l[1m[35mm[m[1m[31m'[m[42;198H6[14;26H[?25h[?25l[1m[35me[m[1m[31m'[m[42;198H7[14;27H[?25h[?25l[1m[35m [m[1m[31m'[m[42;198H8[14;28H[?25h[?25l[1m[35mR[m[1m[31m'[m[42;198H9[14;29H[?25h[?25l[1m[35mX[m[1m[31m'[m[42;197H30[14;30H[?25h[?25l[1m[35m [m[1m[31m'[m[42;198H1[14;31H[?25h[?25l[1m[35mn[m[1m[31m'[m[42;198H2[14;32H[?25h[?25l[1m[35mu[m[1m[31m'[m[42;198H3[14;33H[?25h[?25l[1m[35mm[m[1m[31m'[m[42;198H4[14;34H[?25h[?25l[1m[35mb[m[1m[31m'[m[42;198H5[14;35H[?25h[?25l[1m[35me[m[1m[31m'[m[42;198H6[14;36H[?25h[?25l[1m[35mr[m[1m[31m'[m[42;198H7[14;37H[?25h[?25l[1m[35m [m[1m[31m'[m[42;198H8[14;38H[?25h[?25l[1m[35mh[m[1m[31m'[m[42;198H9[14;39H[?25h[?25l[1m[35ma[m[1m[31m'[m[42;197H40[14;40H[?25h[?25l[1m[35mi[m[1m[31m'[m[42;198H1[14;41H[?25h[42;1H[K[14;40H[?25l[42;184H^[[14;40H[42;184H  [14;41H[42;194H14,40[9CAll[14;40H[?25h[?25l[42;184H:[14;40H[42;184H[K[42;1H:[?25hwq[?25l[?2004l[>4;m"apache-cookbook/recipes/apache-recipe.rb" 21L, 302B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;m]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# vi apache-cookbook/recipes/apache-recipe.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchef-client -zr "recipe[apache-cookbook::apache-recipe]"
+[2023-05-01T19:54:24+00:00] WARN: No config file found or specified on command line. Using command line options instead.
+Starting Chef Infra Client, version 15.0.300[0m
+resolving cookbooks for run list: ["apache-cookbook::apache-recipe"][0m
+Synchronizing Cookbooks:[0m
+  - apache-cookbook (0.1.0)[0m
+Installing Cookbook Gems:[0m
+Compiling Cookbooks...[0m
+Converging 3 resources[0m
+Recipe: apache-cookbook::apache-recipe[0m
+  * yum_package[httpd] action install (up to date)
+  * file[/var/www/html/index.html] action create
+    [32m- update content in file /var/www/html/index.html from 6e161e to 7d3949[0m
+    [37m--- /var/www/html/index.html	2023-05-01 19:48:44.305154457 +0000[0m
+    [37m+++ /var/www/html/.chef-index20230501-4859-1e2sfz0.html	2023-05-01 19:54:27.576905713 +0000[0m
+    [37m@@ -1,2 +1,2 @@[0m
+    [37m-Welcome to Technical Guftgu[0m
+    [37m+Mohan ka new name RX number hai[0m
+[0m  * service[httpd] action enable (up to date)
+  * service[httpd] action start (up to date)
+[0m
+Running handlers:[0m
+Running handlers complete
+[0mChef Infra Client finished, 1/4 resources updated in 03 seconds[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# wget [K[K[K[K[Kco[K[Kchef gernarte[K[K[K[K[K[Knerate chrom for windows[1@-[C[1P[C[C[C[C[1Pwindows-windows[Ce-for-windows
+Usage: chef generate GENERATOR [options]
+
+Available generators:
+  cookbook        Generate a single cookbook
+  recipe          Generate a new recipe
+  attribute       Generate an attributes file
+  template        Generate a file template
+  file            Generate a cookbook file
+  helpers         Generate a cookbook helper file in libraries
+  resource        Generate a custom resource
+  repo            Generate a Chef code repository
+  policyfile      Generate a Policyfile for use with the install/push commands
+  generator       Copy ChefDK's generator cookbook so you can customize it
+  build-cookbook  Generate a build cookbook for use with Chef Workflow (Delivery)
+
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# chef generate chrome-for-windows[C chrome-for-windowsc chrome-for-windowso chrome-for-windowso chrome-for-windowsk chrome-for-windowsb chrome-for-windowso chrome-for-windowso chrome-for-windowsk chrome-for-windows
+Hyphens are discouraged in cookbook names as they may cause problems with custom resources. See https://docs.chef.io/ctl_chef.html#chef-generate-cookbook for more information.
+Generating cookbook chrome-for-windows
+- Ensuring correct cookbook content[0m
+
+Your cookbook is ready. Type `cd chrome-for-windows` to enter it.
+
+There are several commands you can run to get started locally developing and testing your cookbook.
+Type `delivery local --help` to see a full list of local testing commands.
+
+Why not start by writing an InSpec test? Tests for the default recipe are stored at:
+
+test/integration/default/default_test.rb
+
+If you'd prefer to dive right in, the default recipe can be found at:
+
+recipes/default.rb
+
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# ls
+[0m[01;34mapache-cookbook[0m  [01;34mchrome-for-windows[0m  simplefileruby.txt  [01;34mtest-cookbook[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# cd chrome-for-windows/
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/chrome-for-windows[root@ip-172-31-42-42 chrome-for-windows]# chef gernarate[K[K[K[K[K[K[Knerate recipe chrome
+Recipe: code_generator::recipe[0m
+  * directory[/home/ec2-user/cookbooks/chrome-for-windows/spec/unit/recipes] action create (up to date)
+  * cookbook_file[/home/ec2-user/cookbooks/chrome-for-windows/spec/spec_helper.rb] action create_if_missing (up to date)
+  * template[/home/ec2-user/cookbooks/chrome-for-windows/spec/unit/recipes/chrome_spec.rb] action create_if_missing
+    [32m- create new file /home/ec2-user/cookbooks/chrome-for-windows/spec/unit/recipes/chrome_spec.rb[0m
+    [32m- update content in file /home/ec2-user/cookbooks/chrome-for-windows/spec/unit/recipes/chrome_spec.rb from none to 9df03d[0m
+    [37m(diff output suppressed by config)[0m
+[0m  * directory[/home/ec2-user/cookbooks/chrome-for-windows/test/integration/default] action create (up to date)
+  * template[/home/ec2-user/cookbooks/chrome-for-windows/test/integration/default/chrome_test.rb] action create_if_missing
+    [32m- create new file /home/ec2-user/cookbooks/chrome-for-windows/test/integration/default/chrome_test.rb[0m
+    [32m- update content in file /home/ec2-user/cookbooks/chrome-for-windows/test/integration/default/chrome_test.rb from none to 95b6c1[0m
+    [37m(diff output suppressed by config)[0m
+[0m  * template[/home/ec2-user/cookbooks/chrome-for-windows/recipes/chrome.rb] action create
+    [32m- create new file /home/ec2-user/cookbooks/chrome-for-windows/recipes/chrome.rb[0m
+    [32m- update content in file /home/ec2-user/cookbooks/chrome-for-windows/recipes/chrome.rb from none to 219ce5[0m
+    [37m(diff output suppressed by config)[0m
+[0m]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/chrome-for-windows[root@ip-172-31-42-42 chrome-for-windows]# ls
+CHANGELOG.md  chefignore  kitchen.yml  LICENSE  metadata.rb  Policyfile.rb  README.md  [0m[01;34mrecipes[0m  [01;34mspec[0m  [01;34mtest[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/chrome-for-windows[root@ip-172-31-42-42 chrome-for-windows]# tree
+.
+├── CHANGELOG.md
+├── chefignore
+├── kitchen.yml
+├── LICENSE
+├── metadata.rb
+├── Policyfile.rb
+├── README.md
+├── recipes
+│   ├── chrome.rb
+│   └── default.rb
+├── spec
+│   ├── spec_helper.rb
+│   └── unit
+│       └── recipes
+│           ├── chrome_spec.rb
+│           └── default_spec.rb
+└── test
+    └── integration
+        └── default
+            ├── chrome_test.rb
+            └── default_test.rb
+
+7 directories, 14 files
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/chrome-for-windows[root@ip-172-31-42-42 chrome-for-windows]# cd ..
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# [H[2J[root@ip-172-31-42-42 cookbooks]# vi chrome-for-windows/recipes/chrome.rb 
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;42r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[42;1H"chrome-for-windows/recipes/chrome.rb" 5L, 108B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#
+# Cookbook:: chrome-for-windows[m[2;32H[K[3;1H[34m# Recipe:: chrome[m[3;18H[K[4;1H[34m#
+# Copyright:: 2023, The Authors, All Rights Reserved.[m
+[1m[34m~                                                                                                                                                                                                                  [7;1H~                                                                                                                                                                                                                  [8;1H~                                                                                                                                                                                                                  [9;1H~                                                                                                                                                                                                                  [10;1H~                                                                                                                                                                                                                  [11;1H~                                                                                                                                                                                                                  [12;1H~                                                                                                                                                                                                                  [13;1H~                                                                                                                                                                                                                  [14;1H~                                                                                                                                                                                                                  [15;1H~                                                                                                                                                                                                                  [16;1H~                                                                                                                                                                                                                  [17;1H~                                                                                                                                                                                                                  [18;1H~                                                                                                                                                                                                                  [19;1H~                                                                                                                                                                                                                  [20;1H~                                                                                                                                                                                                                  [21;1H~                                                                                                                                                                                                                  [22;1H~                                                                                                                                                                                                                  [23;1H~                                                                                                                                                                                                                  [24;1H~                                                                                                                                                                                                                  [25;1H~                                                                                                                                                                                                                  [26;1H~                                                                                                                                                                                                                  [27;1H~                                                                                                                                                                                                                  [28;1H~                                                                                                                                                                                                                  [29;1H~                                                                                                                                                                                                                  [30;1H~                                                                                                                                                                                                                  [31;1H~                                                                                                                                                                                                                  [32;1H~                                                                                                                                                                                                                  [33;1H~                                                                                                                                                                                                                  [34;1H~                                                                                                                                                                                                                  [35;1H~                                                                                                                                                                                                                  [36;1H~                                                                                                                                                                                                                  [37;1H~                                                                                                                                                                                                                  [38;1H~                                                                                                                                                                                                                  [39;1H~                                                                                                                                                                                                                  [40;1H~                                                                                                                                                                                                                  [41;1H~                                                                                                                                                                                                                  [m[42;194H1,1[11CAll[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H[1m[36m#
+# Cookbook:: chrome-for-windows
+# Recipe:: chrome
+#
+# Copyright:: 2023, The Authors, All Rights Reserved.[m
+[1m[34m~                                                                                                                                                                                                                  [7;1H~                                                                                                                                                                                                                  [8;1H~                                                                                                                                                                                                                  [9;1H~                                                                                                                                                                                                                  [10;1H~                                                                                                                                                                                                                  [11;1H~                                                                                                                                                                                                                  [12;1H~                                                                                                                                                                                                                  [13;1H~                                                                                                                                                                                                                  [14;1H~                                                                                                                                                                                                                  [15;1H~                                                                                                                                                                                                                  [16;1H~                                                                                                                                                                                                                  [17;1H~                                                                                                                                                                                                                  [18;1H~                                                                                                                                                                                                                  [19;1H~                                                                                                                                                                                                                  [20;1H~                                                                                                                                                                                                                  [21;1H~                                                                                                                                                                                                                  [22;1H~                                                                                                                                                                                                                  [23;1H~                                                                                                                                                                                                                  [24;1H~                                                                                                                                                                                                                  [25;1H~                                                                                                                                                                                                                  [26;1H~                                                                                                                                                                                                                  [27;1H~                                                                                                                                                                                                                  [28;1H~                                                                                                                                                                                                                  [29;1H~                                                                                                                                                                                                                  [30;1H~                                                                                                                                                                                                                  [31;1H~                                                                                                                                                                                                                  [32;1H~                                                                                                                                                                                                                  [33;1H~                                                                                                                                                                                                                  [34;1H~                                                                                                                                                                                                                  [35;1H~                                                                                                                                                                                                                  [36;1H~                                                                                                                                                                                                                  [37;1H~                                                                                                                                                                                                                  [38;1H~                                                                                                                                                                                                                  [39;1H~                                                                                                                                                                                                                  [40;1H~                                                                                                                                                                                                                  [41;1H~                                                                                                                                                                                                                  [m[42;194H1,1[11CAll"chrome-for-windows/recipes/chrome.rb" 5L, 108B[1;1H[?25h[?25l[42;184H~@k[1;1H[42;184H   [2;1H[42;194H2[2;1H[?25h[?25l[42;184H~@k[2;1H[42;184H   [3;1H[42;194H3[3;1H[?25h[?25l[42;184H~@k[3;1H[42;184H   [4;1H[42;194H4[4;1H[?25h[?25l[42;184H~@k[4;1H[42;184H   [5;1H[42;194H5[5;1H[?25h[?25l[42;184H~@k[5;1H[42;184H   [5;1H[?25h[?25l[42;184H~@k[5;1H[42;184H   [5;1H[?25h[?25l[42;184H~@k[5;1H[42;184H   [5;2H[42;196H2[5;2H[?25h[?25l[42;184H~@k[5;2H[42;184H   [5;3H[42;196H3[5;3H[?25h[?25l[42;184H~@k[5;3H[42;184H   [5;4H[42;196H4[5;4H[?25h[?25l[42;184H~@k[5;4H[42;184H   [5;5H[42;196H5[5;5H[?25h[?25l[42;184H~@k[5;5H[42;184H   [5;6H[42;196H6[5;6H[?25h[?25l[42;184H~@k[5;6H[42;184H   [5;7H[42;196H7[5;7H[?25h[?25l[42;184H~@k[5;7H[42;184H   [5;8H[42;196H8[5;8H[?25h[?25l[42;184H~@k[5;8H[42;184H   [5;9H[42;196H9[5;9H[?25h[?25l[42;184H~@k[5;9H[42;184H   [5;10H[42;196H10[5;10H[?25h[?25l[42;184H~@k[5;10H[42;184H   [5;11H[42;197H1[5;11H[?25h[?25l[42;184H~@k[5;11H[42;184H   [5;12H[42;197H2[5;12H[?25h[?25l[42;184H~@k[5;12H[42;184H   [5;13H[42;197H3[5;13H[?25h[?25l[42;184H~@k[5;13H[42;184H   [5;14H[42;197H4[5;14H[?25h[?25l[42;184H~@k[5;14H[42;184H   [5;15H[42;197H5[5;15H[?25h[?25l[42;184H~@k[5;15H[42;184H   [5;16H[42;197H6[5;16H[?25h[?25l[42;184H~@k[5;16H[42;184H   [5;17H[42;197H7[5;17H[?25h[?25l[42;184H~@k[5;17H[42;184H   [5;18H[42;197H8[5;18H[?25h[?25l[42;184H~@k[5;18H[42;184H   [5;19H[42;197H9[5;19H[?25h[?25l[42;184H~@k[5;19H[42;184H   [5;20H[42;196H20[5;20H[?25h[?25l[42;184H~@k[5;20H[42;184H   [5;21H[42;197H1[5;21H[?25h[?25l[42;184H~@k[5;21H[42;184H   [5;22H[42;197H2[5;22H[?25h[?25l[42;184H~@k[5;22H[42;184H   [5;23H[42;197H3[5;23H[?25h[?25l[42;184H~@k[5;23H[42;184H   [5;24H[42;197H4[5;24H[?25h[?25l[42;184H~@k[5;24H[42;184H   [5;25H[42;197H5[5;25H[?25h[?25l[42;184H~@k[5;25H[42;184H   [5;26H[42;197H6[5;26H[?25h[?25l[42;184H~@k[5;26H[42;184H   [5;27H[42;197H7[5;27H[?25h[?25l[42;184H~@k[5;27H[42;184H   [5;28H[42;197H8[5;28H[?25h[?25l[42;184H~@k[5;28H[42;184H   [5;29H[42;197H9[5;29H[?25h[?25l[42;184H~@k[5;29H[42;184H   [5;30H[42;196H30[5;30H[?25h[?25l[42;184H~@k[5;30H[42;184H   [5;31H[42;197H1[5;31H[?25h[?25l[42;184H~@k[5;31H[42;184H   [5;32H[42;197H2[5;32H[?25h[?25l[42;184H~@k[5;32H[42;184H   [5;33H[42;197H3[5;33H[?25h[?25l[42;184H~@k[5;33H[42;184H   [5;34H[42;197H4[5;34H[?25h[?25l[42;184H~@k[5;34H[42;184H   [5;35H[42;197H5[5;35H[?25h[?25l[42;184H~@k[5;35H[42;184H   [5;36H[42;197H6[5;36H[?25h[?25l[42;184H~@k[5;36H[42;184H   [5;37H[42;197H7[5;37H[?25h[?25l[42;184H~@k[5;37H[42;184H   [5;38H[42;197H8[5;38H[?25h[?25l[42;184H~@k[5;38H[42;184H   [5;39H[42;197H9[5;39H[?25h[?25l[42;184H~@k[5;39H[42;184H   [5;40H[42;196H40[5;40H[?25h[?25l[42;184H~@k[5;40H[42;184H   [5;41H[42;197H1[5;41H[?25h[?25l[42;184H~@k[5;41H[42;184H   [5;42H[42;197H2[5;42H[?25h[?25l[42;184H~@k[5;42H[42;184H   [5;43H[42;197H3[5;43H[?25h[?25l[42;184H~@k[5;43H[42;184H   [5;44H[42;197H4[5;44H[?25h[?25l[42;184H~@k[5;44H[42;184H   [5;45H[42;197H5[5;45H[?25h[?25l[42;184H~@k[5;45H[42;184H   [5;46H[42;197H6[5;46H[?25h[?25l[42;184H~@k[5;46H[42;184H   [5;47H[42;197H7[5;47H[?25h[?25l[42;184H~@k[5;47H[42;184H   [5;48H[42;197H8[5;48H[?25h[?25l[42;184H~@k[5;48H[42;184H   [5;49H[42;197H9[5;49H[?25h[?25l[42;184H~@k[5;49H[42;184H   [5;50H[42;196H50[5;50H[?25h[?25l[42;184H~@k[5;50H[42;184H   [5;51H[42;197H1[5;51H[?25h[?25l[42;184H~@k[5;51H[42;184H   [5;52H[42;197H2[5;52H[?25h[?25l[42;184H~@k[5;52H[42;184H   [5;53H[42;197H3[5;53H[?25h[?25l[42;184H~@k[5;53H[42;184H   [5;53H[?25h[?25l[42;184H^M[5;53H[42;184H  [5;53H[?25h[?25l[42;184H^M[5;53H[42;184H  [5;53H[?25h[?25l[42;184H~@k[5;53H[42;184H   [5;53H[?25h[?25l[42;184H~@k[5;53H[42;184H   [4;1H[42;194H4,1 [4;1H[?25h[?25l[42;184H~@k[4;1H[42;184H   [5;53H[42;194H5,53[5;53H[?25h[?25l[42;184H^M[5;53H[42;184H  [5;53H[?25h[?25l[42;184H~@k[5;53H[42;184H   [5;53H[?25h[?25l[42;184H~@k[5;53H[42;184H   [5;53H[?25h[?25l[42;184H~@k[5;53H[42;184H   [5;52H[42;197H2[5;52H[?25h[?25l[42;184H~@k[5;52H[42;184H   [5;51H[42;197H1[5;51H[?25h[?25l[42;184H~@k[5;51H[42;184H   [5;50H[42;197H0[5;50H[?25h[?25l[42;184Hi[5;50H[42;184H [5;50H[42;1H[1m-- INSERT --[m[42;13H[K[42;194H5,50[10CAll[5;50H[?25h[?25l[42;197H1[5;51H[?25h[?25l[42;197H2[5;52H[?25h[?25l[42;197H3[5;53H[?25h[?25l[42;197H4[5;54H[?25h[?25l
+[1m[36m# [m[6;3H[K[42;194H6,3 [6;3H[?25h[?25l[6;2H[K[7;1H[1m[36m# [m[7;3H[K[42;194H7[7;3H[?25h[?25l[7;2H[K[42;196H2[7;2H[?25h[?25l[7;1H[K[42;196H1[7;1H[?25h[?25l[8;1H[K[42;194H8[8;1H[?25h[?25l[9;1H[K[42;194H9[9;1H[?25h[?25l[1m[36m# Install Google Chrome on Windows[m[10;1H[K[11;1H [11;2H[K[12;1H[K[13;1H[1m[36m# Download U[m[13;13H[K[13;13H[?25h[?25l[1m[36mRL for the Google Chrome installer[m
+chrome_url = [1m[31m"[m[1m[35mhttps://dl[m[14;25H[K[14;25H[?25h[?25l[1m[35m.google.com/chrome/install/standalone/GoogleChromeStandaloneE[?25h[?25lnterprise64.msi[m[1m[31m"[m[15;1H[K[16;1H [16;2H[K[17;1H[K[18;1H[1m[36m# Name of the file to save the installe[m[18;40H[K[18;40H[?25h[?25l[1m[36mr as[m
+chrome_installer = [1m[31m"[m[1m[35mGoogleChromeStandaloneEnterprise64.ms[m[19;58H[K[19;58H[?25h[?25l[1m[35mi[m[1m[31m"[m[20;1H[K[21;1H [21;2H[K[22;1H[K[23;1H[1m[36m# Full path to save the installer at[m[23;37H[K[24;1Hchrome_installer_[24;18H[K[24;18H[?25h[?25lpath = [1m[31m"[m[1m[35mC:[m[1m[31m\\[m[1m[35mUsers[m[1m[31m\\[m[1m[35mAdministrator[m[1m[31m\\[m[1m[35mDownloads[m[1m[31m\\#{[mchrome_installer[?25h[?25l[1m[31m}"[m[25;1H[K[26;1H [26;2H[K[27;1H[K[28;1H[1m[36m# Download the installer[m[28;25H[K[29;1Hremote_file chrome_installer_p[29;31H[K[29;31H[?25h[?25lath [1m[33mdo[m
+  source chrome_url[30;20H[K[31;1H  action [1m[35m:create[m[31;17H[K[32;1H[1m[33mend[m[32;4H[K[33;1H[K[34;1H [34;2H[K[35;1H[K[36;1H[1m[36m# Instal[m[36;9H[K[36;9H[?25h[?25l[1m[36ml Google Chrome[m
+windows_package [1m[31m"[m[1m[35mGoogle Chrome[m[1m[31m"[m [1m[33mdo[m[37;35H[K[38;1H  source ch[38;12H[K[38;12H[?25h[?25lrome_installer_path
+  options [1m[31m"[m[1m[35m/quiet /norestart[m[1m[31m"[m[39;30H[K[40;1H  action [1m[35m:i[m[40;12H[K[40;12H[?25h[?25l[1m[35mnstall[m
+[1m[33mend[m[41;4H[K[42;194H41,4[41;4H[?25h[42;1H[K[41;3H[?25l[42;184H^[[41;3H[42;184H  [41;4H[42;194H41,3[10CAll[41;3H[?25h[?25l[42;184H:[41;3H[42;184H[K[42;1H:[?25hwq[?25l[?2004l[>4;m"chrome-for-windows/recipes/chrome.rb" 41L, 795B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;m]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# vi chrome-for-windows/recipes/chrome.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[1Ptree[2Plschef generate recipe chrome[5Pd chrome-for-windows/ls[Kchef generate cookbook chrome-for-windows[9Phrome-for-windows-client -zr "recipe[apache-cookbook::apache-recipe]"[C[1P]"[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[0m[01;34mapache-cookbook[0m  [01;34mchrome-for-windows[0m  simplefileruby.txt  [01;34mtest-cookbook[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# lsvi chrome-for-windows/recipes/chrome.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[1Ptree[2Plschef generate recipe chrome[5Pd chrome-for-windows/ls[Kchef generate cookbook chrome-for-windows[9Phrome-for-windows-client -zr "recipe[apache-cookbook::apache-recipe]"[1Pe]"[1Pe]"[1Pe]"[1P]"[1Pe]"[1Pe]"[1P]"[1Pe]"[1Pe]"[1Pe]"[1Pe]"[1Pe]"[1Pe]"[1Pe]"[1Pe]"[1Pe]"[1Pe]"[1Pe]"[1Pe]"[1Pe]"[1Pe]"[1Pe]"[1Pe]"[1P]"[1Pe]"[1Pe]"[1Pe]"[1Pe]"[1Pe]"[C[1P]"c]"h]"r]"o]"m]"e]"-]"f]"o]"r]"-]"w]"i]"n]"d]"o]"w]"s]":]":]"c]"h]"r]"o]"m]"e]"
+[2023-05-01T20:05:48+00:00] WARN: No config file found or specified on command line. Using command line options instead.
+Starting Chef Infra Client, version 15.0.300[0m
+resolving cookbooks for run list: ["chrome-for-windows::chrome"][0m
+Synchronizing Cookbooks:[0m
+  - chrome-for-windows (0.1.0)[0m
+Installing Cookbook Gems:[0m
+Compiling Cookbooks...[0m
+[0m
+================================================================================[0m
+[31mRecipe Compile Error in /root/.chef/local-mode-cache/cache/cookbooks/chrome-for-windows/recipes/chrome.rb[0m
+================================================================================[0m
+
+[0mNameError[0m
+---------[0m
+undefined local variable or method ` ' for cookbook: chrome-for-windows, recipe: chrome :Chef::Recipe[0m
+
+[0mCookbook Trace:[0m
+---------------[0m
+  /root/.chef/local-mode-cache/cache/cookbooks/chrome-for-windows/recipes/chrome.rb:11:in `from_file'[0m
+
+[0mRelevant File Content:[0m
+----------------------[0m
+/root/.chef/local-mode-cache/cache/cookbooks/chrome-for-windows/recipes/chrome.rb:
+[0m
+[0m  4:  #
+[0m  5:  # Copyright:: 2023, The Authors, All Rights Reserved.
+[0m  6:  #
+[0m  7:  
+[0m  8:  
+[0m  9:  # Install Google Chrome on Windows
+[0m 10:  
+[0m 11>>  
+[0m 12:  
+[0m 13:  # Download URL for the Google Chrome installer
+[0m 14:  chrome_url = "https://dl.google.com/chrome/install/standalone/GoogleChromeStandaloneEnterprise64.msi"
+[0m 15:  
+[0m 16:   
+[0m 17:  
+[0m 18:  # Name of the file to save the installer as
+[0m 19:  chrome_installer = "GoogleChromeStandaloneEnterprise64.msi"
+[0m 20:  
+[0m
+[0mSystem Info:[0m
+------------[0m
+chef_version=15.0.300
+[0mplatform=amazon
+[0mplatform_version=2
+[0mruby=ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
+[0mprogram_name=/bin/chef-client
+[0mexecutable=/opt/chef-workstation/bin/chef-client[0m
+
+[0m[0m
+Running handlers:[0m
+[2023-05-01T20:05:50+00:00] ERROR: Running exception handlers
+Running handlers complete
+[0m[2023-05-01T20:05:50+00:00] ERROR: Exception handlers complete
+Chef Infra Client failed. 0 resources updated in 01 seconds[0m
+[2023-05-01T20:05:50+00:00] FATAL: Stacktrace dumped to /root/.chef/local-mode-cache/cache/chef-stacktrace.out
+[2023-05-01T20:05:50+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2023-05-01T20:05:50+00:00] FATAL: NameError: undefined local variable or method ` ' for cookbook: chrome-for-windows, recipe: chrome :Chef::Recipe
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# 
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# 
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# [H[2J[root@ip-172-31-42-42 cookbooks]# chef-client -zr "recipe[chrome-for-windows::chrome]"
+[2023-05-01T20:07:03+00:00] WARN: No config file found or specified on command line. Using command line options instead.
+Starting Chef Infra Client, version 15.0.300[0m
+resolving cookbooks for run list: ["chrome-for-windows::chrome"][0m
+Synchronizing Cookbooks:[0m
+  - chrome-for-windows (0.1.0)[0m
+Installing Cookbook Gems:[0m
+Compiling Cookbooks...[0m
+[0m
+================================================================================[0m
+[31mRecipe Compile Error in /root/.chef/local-mode-cache/cache/cookbooks/chrome-for-windows/recipes/chrome.rb[0m
+================================================================================[0m
+
+[0mNameError[0m
+---------[0m
+undefined local variable or method ` ' for cookbook: chrome-for-windows, recipe: chrome :Chef::Recipe[0m
+
+[0mCookbook Trace:[0m
+---------------[0m
+  /root/.chef/local-mode-cache/cache/cookbooks/chrome-for-windows/recipes/chrome.rb:11:in `from_file'[0m
+
+[0mRelevant File Content:[0m
+----------------------[0m
+/root/.chef/local-mode-cache/cache/cookbooks/chrome-for-windows/recipes/chrome.rb:
+[0m
+[0m  4:  #
+[0m  5:  # Copyright:: 2023, The Authors, All Rights Reserved.
+[0m  6:  #
+[0m  7:  
+[0m  8:  
+[0m  9:  # Install Google Chrome on Windows
+[0m 10:  
+[0m 11>>  
+[0m 12:  
+[0m 13:  # Download URL for the Google Chrome installer
+[0m 14:  chrome_url = "https://dl.google.com/chrome/install/standalone/GoogleChromeStandaloneEnterprise64.msi"
+[0m 15:  
+[0m 16:   
+[0m 17:  
+[0m 18:  # Name of the file to save the installer as
+[0m 19:  chrome_installer = "GoogleChromeStandaloneEnterprise64.msi"
+[0m 20:  
+[0m
+[0mSystem Info:[0m
+------------[0m
+chef_version=15.0.300
+[0mplatform=amazon
+[0mplatform_version=2
+[0mruby=ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
+[0mprogram_name=/bin/chef-client
+[0mexecutable=/opt/chef-workstation/bin/chef-client[0m
+
+[0m[0m
+Running handlers:[0m
+[2023-05-01T20:07:05+00:00] ERROR: Running exception handlers
+Running handlers complete
+[0m[2023-05-01T20:07:05+00:00] ERROR: Exception handlers complete
+Chef Infra Client failed. 0 resources updated in 01 seconds[0m
+[2023-05-01T20:07:05+00:00] FATAL: Stacktrace dumped to /root/.chef/local-mode-cache/cache/chef-stacktrace.out
+[2023-05-01T20:07:05+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2023-05-01T20:07:05+00:00] FATAL: NameError: undefined local variable or method ` ' for cookbook: chrome-for-windows, recipe: chrome :Chef::Recipe
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# cat chrome-for-windows/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KCD C[K[K[K[Kcd chrome-for-windows/
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/chrome-for-windows[root@ip-172-31-42-42 chrome-for-windows]# ls
+CHANGELOG.md  chefignore  kitchen.yml  LICENSE  metadata.rb  Policyfile.rb  README.md  [0m[01;34mrecipes[0m  [01;34mspec[0m  [01;34mtest[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/chrome-for-windows[root@ip-172-31-42-42 chrome-for-windows]# tree
+.
+├── CHANGELOG.md
+├── chefignore
+├── kitchen.yml
+├── LICENSE
+├── metadata.rb
+├── Policyfile.rb
+├── README.md
+├── recipes
+│   ├── chrome.rb
+│   └── default.rb
+├── spec
+│   ├── spec_helper.rb
+│   └── unit
+│       └── recipes
+│           ├── chrome_spec.rb
+│           └── default_spec.rb
+└── test
+    └── integration
+        └── default
+            ├── chrome_test.rb
+            └── default_test.rb
+
+7 directories, 14 files
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/chrome-for-windows[root@ip-172-31-42-42 chrome-for-windows]# cat chefignore [K[K[K[K[K[K[K[K[Krome
+cat: chrome: No such file or directory
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/chrome-for-windows[root@ip-172-31-42-42 chrome-for-windows]# cat chrome[K[K[K[K[K[K[K[K[K[Kva[K[Kcat chefignore [K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+CHANGELOG.md  chefignore  kitchen.yml  LICENSE  metadata.rb  Policyfile.rb  README.md  [0m[01;34mrecipes[0m  [01;34mspec[0m  [01;34mtest[0m
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/chrome-for-windows[root@ip-172-31-42-42 chrome-for-windows]# cat chrome.rb
+cat: chrome.rb: No such file or directory
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/chrome-for-windows[root@ip-172-31-42-42 chrome-for-windows]# tree
+.
+├── CHANGELOG.md
+├── chefignore
+├── kitchen.yml
+├── LICENSE
+├── metadata.rb
+├── Policyfile.rb
+├── README.md
+├── recipes
+│   ├── chrome.rb
+│   └── default.rb
+├── spec
+│   ├── spec_helper.rb
+│   └── unit
+│       └── recipes
+│           ├── chrome_spec.rb
+│           └── default_spec.rb
+└── test
+    └── integration
+        └── default
+            ├── chrome_test.rb
+            └── default_test.rb
+
+7 directories, 14 files
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks/chrome-for-windows[root@ip-172-31-42-42 chrome-for-windows]# cd ..
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# vi chrome-for-windows/recipes/chrome.rb 
+[?1049h[>4;2m[?1h=[?2004h[?1004h[1;42r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[42;1H"chrome-for-windows/recipes/chrome.rb" 41L, 795B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[34m#
+# Cookbook:: chrome-for-windows[m[2;32H[K[3;1H[34m# Recipe:: chrome[m[3;18H[K[4;1H[34m#
+# Copyright:: 2023, The Authors, All Rights Reserved.
+#
+
+
+# Install Google Chrome on Windows[m
+
+ 
+
+[34m# Download URL for the Google Chrome installer[m
+chrome_url = [35m"[m[31mhttps://dl.google.com/chrome/install/standalone/GoogleChromeStandaloneEnterprise64.msi[m[35m"[m
+
+ 
+
+[34m# Name of the file to save the installer as[m
+chrome_installer = [35m"[m[31mGoogleChromeStandaloneEnterprise64.msi[m[35m"[m
+
+ 
+
+[34m# Full path to save the installer at[m
+chrome_installer_path = [35m"[m[31mC:[m[35m\\[m[31mUsers[m[35m\\[m[31mAdministrator[m[35m\\[m[31mDownloads[m[35m\\#{[mchrome_installer[35m}"[m
+
+ 
+
+[34m# Download the installer[m
+remote_file chrome_installer_path [33mdo[m
+  source chrome_url
+  action [31m:create[m
+[33mend[m
+
+ 
+
+[34m# Install Google Chrome[m
+windows_package [35m"[m[31mGoogle Chrome[m[35m"[m [33mdo[m
+  source chrome_installer_path
+  options [35m"[m[31m/quiet /norestart[m[35m"[m
+  action [31m:install[m
+[33mend[m[42;194H41,3[10CAll[41;3H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[27m[23m[29m[m[H[2J[?25l[1;1H[1m[36m#
+# Cookbook:: chrome-for-windows
+# Recipe:: chrome
+#
+# Copyright:: 2023, The Authors, All Rights Reserved.
+#
+
+
+# Install Google Chrome on Windows[m
+
+ 
+
+[1m[36m# Download URL for the Google Chrome installer[m
+chrome_url = [1m[31m"[m[1m[35mhttps://dl.google.com/chrome/install/standalone/GoogleChromeStandaloneEnterprise64.msi[m[1m[31m"[m
+
+ 
+
+[1m[36m# Name of the file to save the installer as[m
+chrome_installer = [1m[31m"[m[1m[35mGoogleChromeStandaloneEnterprise64.msi[m[1m[31m"[m
+
+ 
+
+[1m[36m# Full path to save the installer at[m
+chrome_installer_path = [1m[31m"[m[1m[35mC:[m[1m[31m\\[m[1m[35mUsers[m[1m[31m\\[m[1m[35mAdministrator[m[1m[31m\\[m[1m[35mDownloads[m[1m[31m\\#{[mchrome_installer[1m[31m}"[m
+
+ 
+
+[1m[36m# Download the installer[m
+remote_file chrome_installer_path [1m[33mdo[m
+  source chrome_url
+  action [1m[35m:create[m
+[1m[33mend[m
+
+ 
+
+[1m[36m# Install Google Chrome[m
+windows_package [1m[31m"[m[1m[35mGoogle Chrome[m[1m[31m"[m [1m[33mdo[m
+  source chrome_installer_path
+  options [1m[31m"[m[1m[35m/quiet /norestart[m[1m[31m"[m
+  action [1m[35m:install[m
+[1m[33mend[m[42;194H41,3[10CAll"chrome-for-windows/recipes/chrome.rb" 41L, 795B[41;3H[?25h[?25l[42;195H0,4-3[40;3H[?25h[?25l[42;194H39[39;3H[?25h[?25l[42;195H8[38;3H[?25h[?25l[42;195H7,3  [37;3H[?25h[?25l[42;184H~@k[37;3H[42;184H   [36;3H[42;195H6[36;3H[?25h[?25l[42;195H5,0-1[35;1H[?25h[?25l[42;195H4,1  [34;1H[?25h[?25l[42;195H3,0-1[33;1H[?25h[?25l[42;195H2,3  [32;3H[?25h[?25l[42;195H1,4-3[31;3H[?25h[?25l[42;184H~@k[31;3H[42;184H   [30;3H[42;195H0[30;3H[?25h[?25l[42;194H29,3  [29;3H[?25h[?25l[42;195H8[28;3H[?25h[?25l[42;195H7,0-1[27;1H[?25h[?25l[42;195H6,1  [26;1H[?25h[?25l[42;195H5,0-1[25;1H[?25h[?25l[42;184H~@k[25;1H[42;184H   [24;3H[42;195H4,3  [24;3H[?25h[?25l[42;195H3[23;3H[?25h[?25l[42;195H2,0-1[22;1H[?25h[?25l[42;195H1,1  [21;1H[?25h[?25l[42;195H0,0-1[20;1H[?25h[?25l[42;194H19,3  [19;3H[?25h[?25l[42;184H~@k[19;3H[42;184H   [18;3H[42;195H8[18;3H[?25h[?25l[42;195H7,0-1[17;1H[?25h[?25l[42;195H6,1  [16;1H[?25h[?25l[42;195H5,0-1[15;1H[?25h[?25l[42;195H4,3  [14;3H[?25h[?25l[42;195H3[13;3H[?25h[?25l[42;184H~@k[13;3H[42;184H   [12;1H[42;195H2,0-1[12;1H[?25h[?25l[42;195H1,1  [11;1H[?25h[?25l[42;195H0,0-1[10;1H[?25h[?25l[42;194H9,3   [9;3H[?25h[?25l[42;194H8,0-1[8;1H[?25h[?25l[42;194H7[7;1H[?25h[?25l[42;184H~@k[7;1H[42;184H   [6;1H[42;194H6,1  [6;1H[?25h[?25l[42;194H5,3[5;3H[?25h[?25l[42;194H4,1[4;1H[?25h[?25l[42;194H3,3[3;3H[?25h[?25l[42;194H2[2;3H[?25h[?25l[42;194H1,1[1;1H[?25h[?25l[42;184H~@k[1;1H[42;184H   [1;1H[?25h[?25l[42;184H~@k[1;1H[42;184H   [1;1H[?25h[?25l[42;184H~@k[1;1H[42;184H   [1;1H[?25h[?25l[42;194H2,3[2;3H[?25h[?25l[42;194H3[3;3H[?25h[?25l[42;194H4,1[4;1H[?25h[?25l[42;184H~@k[4;1H[42;184H   [5;3H[42;194H5,3[5;3H[?25h[?25l[42;194H6,1[6;1H[?25h[?25l[42;194H7,0-1[7;1H[?25h[?25l[42;194H8[8;1H[?25h[?25l[42;194H9,3  [9;3H[?25h[?25l[42;194H10,0-1[10;1H[?25h[?25l[42;184H~@k[10;1H[42;184H   [11;1H[42;195H1,1  [11;1H[?25h[?25l[42;195H2,0-1[12;1H[?25h[?25l[42;195H3,3  [13;3H[?25h[?25l[42;195H4[14;3H[?25h[?25l[42;195H5,0-1[15;1H[?25h[?25l[42;195H6,1  [16;1H[?25h[?25l[42;184H~@k[16;1H[42;184H   [17;1H[42;195H7,0-1[17;1H[?25h[?25l[42;195H8,3  [18;3H[?25h[?25l[42;195H9[19;3H[?25h[?25l[42;194H20,0-1[20;1H[?25h[?25l[42;195H1,1  [21;1H[?25h[?25l[42;195H2,0-1[22;1H[?25h[?25l[42;184H~@k[22;1H[42;184H   [23;3H[42;195H3,3  [23;3H[?25h[?25l[42;195H4[24;3H[?25h[?25l[42;195H5,0-1[25;1H[?25h[?25l[42;195H6,1  [26;1H[?25h[?25l[42;195H7,0-1[27;1H[?25h[?25l[42;195H8,3  [28;3H[?25h[?25l[42;184H~@k[28;3H[42;184H   [29;3H[42;195H9[29;3H[?25h[?25l[42;194H30,4-3[30;3H[?25h[?25l[42;195H1[31;3H[?25h[?25l[42;195H2,3  [32;3H[?25h[?25l[42;195H3,0-1[33;1H[?25h[?25l[42;195H4,1  [34;1H[?25h[?25l[42;184H~@k[34;1H[42;184H   [35;1H[42;195H5,0-1[35;1H[?25h[?25l[42;195H6,3  [36;3H[?25h[?25l[42;195H7[37;3H[?25h[?25l[42;195H8,4-3[38;3H[?25h[?25l[42;195H9[39;3H[?25h[?25l[42;194H40[40;3H[?25h[?25l[42;184H~@k[40;3H[42;184H   [41;3H[42;195H1,3  [41;3H[?25h[?25l[42;184H~@k[41;3H[42;184H   [41;3H[?25h[?25l[42;184H~@k[41;3H[42;184H   [41;3H[?25h[?25l[42;184H^[[41;3H[42;184H  [41;3H[42;184H^[[41;3H[42;184H  [41;3H[?25h[?25l[42;184H:[41;3H[42;1H[K[42;1H:[?25hwq[?25l[?2004l[>4;m"chrome-for-windows/recipes/chrome.rb" 41L, 795B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[?25h[>4;m]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# vi chrome-for-windows/recipes/chrome.rb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[1Ptreecat chrome.rbls[Kcat chrome[6Ptree[2Plscd chrome-for-windows/hef-client -zr "recipe[chrome-for-windows::chrome]"
+[2023-05-01T20:14:03+00:00] WARN: No config file found or specified on command line. Using command line options instead.
+Starting Chef Infra Client, version 15.0.300[0m
+resolving cookbooks for run list: ["chrome-for-windows::chrome"][0m
+Synchronizing Cookbooks:[0m
+  - chrome-for-windows (0.1.0)[0m
+Installing Cookbook Gems:[0m
+Compiling Cookbooks...[0m
+[0m
+================================================================================[0m
+[31mRecipe Compile Error in /root/.chef/local-mode-cache/cache/cookbooks/chrome-for-windows/recipes/chrome.rb[0m
+================================================================================[0m
+
+[0mNameError[0m
+---------[0m
+undefined local variable or method ` ' for cookbook: chrome-for-windows, recipe: chrome :Chef::Recipe[0m
+
+[0mCookbook Trace:[0m
+---------------[0m
+  /root/.chef/local-mode-cache/cache/cookbooks/chrome-for-windows/recipes/chrome.rb:11:in `from_file'[0m
+
+[0mRelevant File Content:[0m
+----------------------[0m
+/root/.chef/local-mode-cache/cache/cookbooks/chrome-for-windows/recipes/chrome.rb:
+[0m
+[0m  4:  #
+[0m  5:  # Copyright:: 2023, The Authors, All Rights Reserved.
+[0m  6:  #
+[0m  7:  
+[0m  8:  
+[0m  9:  # Install Google Chrome on Windows
+[0m 10:  
+[0m 11>>  
+[0m 12:  
+[0m 13:  # Download URL for the Google Chrome installer
+[0m 14:  chrome_url = "https://dl.google.com/chrome/install/standalone/GoogleChromeStandaloneEnterprise64.msi"
+[0m 15:  
+[0m 16:   
+[0m 17:  
+[0m 18:  # Name of the file to save the installer as
+[0m 19:  chrome_installer = "GoogleChromeStandaloneEnterprise64.msi"
+[0m 20:  
+[0m
+[0mSystem Info:[0m
+------------[0m
+chef_version=15.0.300
+[0mplatform=amazon
+[0mplatform_version=2
+[0mruby=ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
+[0mprogram_name=/bin/chef-client
+[0mexecutable=/opt/chef-workstation/bin/chef-client[0m
+
+[0m[0m
+Running handlers:[0m
+[2023-05-01T20:14:05+00:00] ERROR: Running exception handlers
+Running handlers complete
+[0m[2023-05-01T20:14:05+00:00] ERROR: Exception handlers complete
+Chef Infra Client failed. 0 resources updated in 01 seconds[0m
+[2023-05-01T20:14:05+00:00] FATAL: Stacktrace dumped to /root/.chef/local-mode-cache/cache/chef-stacktrace.out
+[2023-05-01T20:14:05+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2023-05-01T20:14:05+00:00] FATAL: NameError: undefined local variable or method ` ' for cookbook: chrome-for-windows, recipe: chrome :Chef::Recipe
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# ^C
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# chef-client -zr "recipe[chrome-for-windows::chrome]"rchrome]"echrome]"[Cchrome]"ichrome]"pchrome]"echrome]"-chrome]".chrome]"
+[2023-05-01T20:15:51+00:00] WARN: No config file found or specified on command line. Using command line options instead.
+Starting Chef Infra Client, version 15.0.300[0m
+resolving cookbooks for run list: ["chrome-for-windows::recipe-.chrome"][0m
+Synchronizing Cookbooks:[0m
+  - chrome-for-windows (0.1.0)[0m
+Installing Cookbook Gems:[0m
+Compiling Cookbooks...[0m
+[0m
+================================================================================[0m
+[31mRecipe Compile Error[0m
+================================================================================[0m
+
+[0mChef::Exceptions::RecipeNotFound[0m
+--------------------------------[0m
+could not find recipe recipe-.chrome for cookbook chrome-for-windows[0m
+
+[0mSystem Info:[0m
+------------[0m
+chef_version=15.0.300
+[0mplatform=amazon
+[0mplatform_version=2
+[0mruby=ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
+[0mprogram_name=/bin/chef-client
+[0mexecutable=/opt/chef-workstation/bin/chef-client[0m
+
+[0m[0m
+Running handlers:[0m
+[2023-05-01T20:15:53+00:00] ERROR: Running exception handlers
+Running handlers complete
+[0m[2023-05-01T20:15:53+00:00] ERROR: Exception handlers complete
+Chef Infra Client failed. 0 resources updated in 01 seconds[0m
+[2023-05-01T20:15:53+00:00] FATAL: Stacktrace dumped to /root/.chef/local-mode-cache/cache/chef-stacktrace.out
+[2023-05-01T20:15:53+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2023-05-01T20:15:53+00:00] FATAL: Chef::Exceptions::RecipeNotFound: could not find recipe recipe-.chrome for cookbook chrome-for-windows
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# chef-client -zr "recipe[chrome-for-windows::recipe-.chrome]"[C[1Pchrome]"
+[2023-05-01T20:16:02+00:00] WARN: No config file found or specified on command line. Using command line options instead.
+Starting Chef Infra Client, version 15.0.300[0m
+resolving cookbooks for run list: ["chrome-for-windows::recipe-chrome"][0m
+Synchronizing Cookbooks:[0m
+  - chrome-for-windows (0.1.0)[0m
+Installing Cookbook Gems:[0m
+Compiling Cookbooks...[0m
+[0m
+================================================================================[0m
+[31mRecipe Compile Error[0m
+================================================================================[0m
+
+[0mChef::Exceptions::RecipeNotFound[0m
+--------------------------------[0m
+could not find recipe recipe-chrome for cookbook chrome-for-windows[0m
+
+[0mSystem Info:[0m
+------------[0m
+chef_version=15.0.300
+[0mplatform=amazon
+[0mplatform_version=2
+[0mruby=ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
+[0mprogram_name=/bin/chef-client
+[0mexecutable=/opt/chef-workstation/bin/chef-client[0m
+
+[0m[0m
+Running handlers:[0m
+[2023-05-01T20:16:04+00:00] ERROR: Running exception handlers
+Running handlers complete
+[0m[2023-05-01T20:16:04+00:00] ERROR: Exception handlers complete
+Chef Infra Client failed. 0 resources updated in 01 seconds[0m
+[2023-05-01T20:16:04+00:00] FATAL: Stacktrace dumped to /root/.chef/local-mode-cache/cache/chef-stacktrace.out
+[2023-05-01T20:16:04+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2023-05-01T20:16:04+00:00] FATAL: Chef::Exceptions::RecipeNotFound: could not find recipe recipe-chrome for cookbook chrome-for-windows
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# chef-client -zr "recipe[chrome-for-windows::recipe-chrome]"[1P-chrome]"[1P-chrome]"[1P-chrome]"[1P-chrome]"[1P-chrome]"[1P-chrome]"[C[1Pchrome]"
+[2023-05-01T20:16:22+00:00] WARN: No config file found or specified on command line. Using command line options instead.
+Starting Chef Infra Client, version 15.0.300[0m
+resolving cookbooks for run list: ["chrome-for-windows::chrome"][0m
+Synchronizing Cookbooks:[0m
+  - chrome-for-windows (0.1.0)[0m
+Installing Cookbook Gems:[0m
+Compiling Cookbooks...[0m
+[0m
+================================================================================[0m
+[31mRecipe Compile Error in /root/.chef/local-mode-cache/cache/cookbooks/chrome-for-windows/recipes/chrome.rb[0m
+================================================================================[0m
+
+[0mNameError[0m
+---------[0m
+undefined local variable or method ` ' for cookbook: chrome-for-windows, recipe: chrome :Chef::Recipe[0m
+
+[0mCookbook Trace:[0m
+---------------[0m
+  /root/.chef/local-mode-cache/cache/cookbooks/chrome-for-windows/recipes/chrome.rb:11:in `from_file'[0m
+
+[0mRelevant File Content:[0m
+----------------------[0m
+/root/.chef/local-mode-cache/cache/cookbooks/chrome-for-windows/recipes/chrome.rb:
+[0m
+[0m  4:  #
+[0m  5:  # Copyright:: 2023, The Authors, All Rights Reserved.
+[0m  6:  #
+[0m  7:  
+[0m  8:  
+[0m  9:  # Install Google Chrome on Windows
+[0m 10:  
+[0m 11>>  
+[0m 12:  
+[0m 13:  # Download URL for the Google Chrome installer
+[0m 14:  chrome_url = "https://dl.google.com/chrome/install/standalone/GoogleChromeStandaloneEnterprise64.msi"
+[0m 15:  
+[0m 16:   
+[0m 17:  
+[0m 18:  # Name of the file to save the installer as
+[0m 19:  chrome_installer = "GoogleChromeStandaloneEnterprise64.msi"
+[0m 20:  
+[0m
+[0mSystem Info:[0m
+------------[0m
+chef_version=15.0.300
+[0mplatform=amazon
+[0mplatform_version=2
+[0mruby=ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
+[0mprogram_name=/bin/chef-client
+[0mexecutable=/opt/chef-workstation/bin/chef-client[0m
+
+[0m[0m
+Running handlers:[0m
+[2023-05-01T20:16:23+00:00] ERROR: Running exception handlers
+Running handlers complete
+[0m[2023-05-01T20:16:23+00:00] ERROR: Exception handlers complete
+Chef Infra Client failed. 0 resources updated in 01 seconds[0m
+[2023-05-01T20:16:23+00:00] FATAL: Stacktrace dumped to /root/.chef/local-mode-cache/cache/chef-stacktrace.out
+[2023-05-01T20:16:23+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2023-05-01T20:16:23+00:00] FATAL: NameError: undefined local variable or method ` ' for cookbook: chrome-for-windows, recipe: chrome :Chef::Recipe
+]0;root@ip-172-31-42-42:/home/ec2-user/cookbooks[root@ip-172-31-42-42 cookbooks]# chef-client -zr "recipe[chrome-for-windows::chrome]"recipe-chrome]"[H[2J[root@ip-172-31-42-42 cookbooks]# chef-client -zr "recipe[chrome-for-windows::recipe-chrome]"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+
+Script done on 2023-05-01 20:24:31+0000
